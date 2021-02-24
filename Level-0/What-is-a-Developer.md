@@ -5,7 +5,7 @@ However, that is only a very basic view of the job of software developer. There 
 Some specialize in certain parts of development. Others handle the whole development process. Still others oversee and
 manage the development process. In this section we will go over some of the different aspects of being a software developer.
 
-## Problem Solving
+## Introduction
 
 The only reason anyone uses a computer to do anything is because that machine helps solve a problem.
 But who decides what problem needs solving? Who determines how that problem should be solved? Usually, these
@@ -48,3 +48,55 @@ they occur. He can predict what problems will be encountered before the project 
 the Senior Developer as the creator of new applications that solve problems heretofor unrecognized as problems.
 You could also think of him as an architect of computer applications. Tech Leads and Junior Developers assist him in bringing
 his new ideas from conception to reality.
+
+## Progression
+
+Given the classifications above, how do you move forward from one level to the next?  Let's take a look at the
+means to move forward as a developer.
+
+## Duties of the Junior Developer
+
+As already mentioned above, a Juniro Developer is largely responsible for translating solutions into code.
+She doesn't solve problems. Instead, she translates already formulated solutions into code. That's it.
+It is not her job to decide *how* a problem is solved.
+Her only concern is writing the code to implement the solution. For example, a Tech Lead has decided that a button is
+needed on the user interface page. So, she tells her Junior Developer, "Make a button and put it in the upper
+left corner of the page. When clicked, it should show a menu.". All the Junior Dev is interested in is creating that button
+and writing the function needed to show the menu. She is not concerned with *why* the button is needed or whether
+or not a button is the best solution. She is only concerned with doing what has been asked.
+
+That sounds like the Junior Dev is some sort of monkey or minion. However, it should be remembered
+that even though her only
+job is to write code, she is still a highly skilled professional. After all, if she doesn't know her
+job then nothing happens at all. Her contribution is therefore vital to the development process. But how does she
+move forward? After having implemented a
+variety solutions in a wide sphere of different areas, she has gained enough knowledge and experience
+to be able to determine for herself what solutions best solve what problems. That sounds alot like a Tech Lead, doesn't it?
+So, to move forward our Junior Dev would need to have the opportunity to implement solutions in code that cover a wide
+variety of different areas. In contrast, a Junior Developer can spend a very long time, sometimes years, implementing only a
+very small number of solutions. Though this Junior Dev has been
+doing this for a long time, they are still lacking the experience of having implemented a larger number of solutions to a
+wider variety of different problems. The point here is this :
+Time on the job is not an accurate metric for promotion. Junior Developers should seek out different types of problems in
+different aspects of the development process. It is not required that the Junior Developer *solve* the problems.
+It is only required that she gain experieince in implementing given solutions in code.
+
+## Duties of the Tech Lead
+
+The Tech Lead is responsible for solving the specific problems presented by clients. Once the solutions are arrived at, she
+then breaks the solution down into smaller, specific tasks.
+These are then delegated to her team of Junior Developers. Once she has delegated these tasks to her team, she is now
+responsible for overseeing the work being done. So, how does she move forward into a Senior Developer position?
+
+This is very similar to the Junior Developer. The more problems the Tech Lead solves, the more she can anticipate what kinds
+of problems she might encounter in the future. The goal here is to be able to take an abstract idea and translate that idea
+into a working application. The more varied the problems, the broader the experience gained by the Tech Lead. Again, none of
+this has anything to do with time served.
+She can solve the same problems over and over again for years,
+and not being any closer to competently moving
+forward into a Sr. Dev postion. She is required to have experience solving a wide variety of problems and successfully
+implementing those solutions via her Junior Developer teams.
+She then will be confident to move forward into a Sr. Developer position.
+
+## The Duties of the Senior Developer
+
