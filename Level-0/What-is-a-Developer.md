@@ -73,7 +73,8 @@ move forward? After having implemented a
 variety solutions in a wide sphere of different areas, she has gained enough knowledge and experience
 to be able to determine for herself what solutions best solve what problems. That sounds alot like a Tech Lead, doesn't it?
 So, to move forward our Junior Dev would need to have the opportunity to implement solutions in code that cover a wide
-variety of different areas. In contrast, a Junior Developer can spend a very long time, sometimes years, implementing only a
+variety of different areas.
+In contrast, a Junior Developer can spend a very long time, sometimes years, implementing only a
 very small number of solutions. Though this Junior Dev has been
 doing this for a long time, they are still lacking the experience of having implemented a larger number of solutions to a
 wider variety of different problems. The point here is this :
@@ -90,7 +91,8 @@ responsible for overseeing the work being done. So, how does she move forward in
 
 This is very similar to the Junior Developer. The more problems the Tech Lead solves, the more she can anticipate what kinds
 of problems she might encounter in the future. The goal here is to be able to take an abstract idea and translate that idea
-into a working application. The more varied the problems, the broader the experience gained by the Tech Lead. Again, none of
+into a working application. The more varied the problems,
+the broader the experience gained by the Tech Lead. Again, none of
 this has anything to do with time served.
 She can solve the same problems over and over again for years,
 and not being any closer to competently moving
