@@ -119,9 +119,18 @@ solving these problems and can implement thier solutions.
 ## Something to Remember
 
 It is important to bear in mind the above descriptions are what *should* be the way a team operates. They are not the way
-most teams *actually* operate. There is quite a lot of confusion regarding the delegation of duties and the ranking of job titles
-in this industry. Executives that really have no idea what a developer does often make the mistake of assuming a Junior Dev
-should be able to do what a Sr. Dev does. There are lots of job titles given to employees in various companies. Many have their
-own job descriptions. There is no set standard for any of this. The information offered above is only for the purpose of
-giving you a more clearly defined overview of the duties of each level of software development.
+most teams *actually* operate. There is quite a lot of
+confusion regarding the delegation of duties and
+the ranking of job titles
+in this industry. Executives that really have no
+idea what a developer does often make the
+mistake of assuming a Junior Dev
+should be able to do what a Sr. Dev does.
+There are lots of job titles given to employees in various companies.
+Many have their
+own job descriptions.
+There is no set standard for any of this.
+The information offered above is only for the purpose of
+giving you a more clearly defined overview of
+the duties of each level of software development.
 Your experience may vary (and probably will).
