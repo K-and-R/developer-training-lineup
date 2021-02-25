@@ -102,3 +102,26 @@ She then will be confident to move forward into a Sr. Developer position.
 
 ## The Duties of the Senior Developer
 
+The role of the Senior Developer encompasses all of the above plus a bit more. They have had quite a bit of experience
+writing code, solving problems, and implementing solutions. The difference here is the Sr. Developer envisions the overall
+purpose of any given application in terms of its contribution to the overall aims of the organization from which it has
+originated. He looks for the problems resident in the application. He knows these are problems because they do not forward
+the aims of the company or organization as a whole. He has a very broad, top-level view of the production. In addition to
+finding problems, the Sr. Dev also has the ability to break the problem down into smaller, more managable pieces. He could,
+if needed, even write the code that solves the problems he has found.
+In short, he can do it all. One of the significant differences between the Sr. Dev and the Tech Lead is one of scope.
+The Tech Lead is concerned with immediate problems presented regarding specific aspects of the project. She handles solving
+those problems and then delegating the implementation of the solutions to her Junior Devs. The Senior Developer does much
+the same thing, except his scope is more broad. He looks at the bigger picture and in so doing anticipates what hurdles must
+be overcome in order to deliver a product that is in alignment with the aims of the organization. He is fully capable of
+solving these problems and can implement thier solutions.
+
+## Something to Remember
+
+It is important to bear in mind the above descriptions are what *should* be the way a team operates. They are not the way
+most teams *actually* operate. There is quite a lot of confusion regarding the delegation of duties and the ranking of job titles
+in this industry. Executives that really have no idea what a developer does often make the mistake of assuming a Junior Dev
+should be able to do what a Sr. Dev does. There are lots of job titles given to employees in various companies. Many have their
+own job descriptions. There is no set standard for any of this. The information offered above is only for the purpose of
+giving you a more clearly defined overview of the duties of each level of software development.
+Your experience may vary (and probably will).
