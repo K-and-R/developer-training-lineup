@@ -49,6 +49,59 @@ over the place in software development. It is actually pretty simple. If you loo
 followed by a " : " and then the `value`. Like this: `color : 'red'`. The idea of assigning a value to a name is very common.
 You will find this idea in arrays, variables, and associative arrays.For example, the "keys" of an array would be the index
 number. The value would be the value held at that
-index location. In an associative array the
-"index" is a string instead of
-just a number. It too is an example of a key/value pair.
+index location.
+
+```javascript
+const array = [1,4,3,2,5];
+let myNumber = array[2];
+console.log(myNumber);
+//Output is 3
+```
+
+Or
+
+```javascript
+const myObj = {
+    myNumber : 3
+};
+console.log(myObj.myNumber);
+//Output is 3
+```
+
+In the first example we have an array. The `key` in this case is the index number of the array, `[2]`.
+The value at that index location is 3. In the second example, we have an object. The `key` is `myNumber`. The value assigned
+to `myNumber` is 3. Even though the values in both examples are accessed with different syntax, the concept is the same.
+
+It is important to remember that the terms `key` and `index` are used for a reason. Conceptually, they are really the same
+thing, but a `key` is always a string while an `index` is
+always a number. Using `keys` is very helpful for describing what the value is. Arrays are useful when you want to have
+several values assigned to a single variable.
+They are also useful if you need to have an
+ordered list of values. There are many different opinions about when to use an object and when to use an array.
+The above is a very basic guideline for their use.
+
+## Accessing Object Values
+
+Once we have our values stored in an object, how do we get them out again? There are two ways to do this. The first is
+called `dot notation`. It looks like this:
+
+```javascript
+const myObj = {
+    name : 'Sam'
+};
+
+console.log(myObj.name);
+//Output is Sam
+```
+
+The second method is by use of `bracket notation`. It looks like this:
+
+```javascript
+const myObj = {
+    name : 'Sam'
+};
+
+console.log(myObject['name']);
+//Output is Sam
+```
+
