@@ -105,3 +105,49 @@ console.log(myObject['name']);
 //Output is Sam
 ```
 
+You might be wondering if there are two different ways to access object properties, which one is used when? Good question.
+Consider the this example:
+
+```javascript
+const myObj = {
+    name : 'Bob',
+    age : 23,
+    job : 'Janitor'
+};
+
+console.log(myObj.name);
+//Output is Bob
+```
+
+The bracket method of accessing properties is a little different. With this method property names can
+be assigned to variables so long as they are strings.
+
+```javascript
+const myObj = {
+    name : 'Bob',
+    age : 23,
+    job : 'Janitor'
+};
+
+let foo = 'name';
+
+console.log(myObj[foo]);
+//Output is Bob
+```
+
+You can't do that with dot notation. You *can* assign a property to a variable using dot notation. Like this:
+
+```javascript
+const myObj = {
+    name : 'Bob',
+    age : 23,
+    job : 'Janitor'
+};
+
+let foo = myObj.name;
+console.log(foo);
+//Output is Bob
+```
+
+So, the difference here is you can use a variable in place of a property name *if* the variable evaluates to a string
+The string is the property name in the object.
