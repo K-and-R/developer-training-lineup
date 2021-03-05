@@ -264,7 +264,7 @@ const makeAnObject = function(name, age){
     let bar = {};
     bar.name = name;
     bar.age = age;
-  return bar;  
+  return bar;
 };
 
 let newObject = makeAnObject('Bill', 34);
