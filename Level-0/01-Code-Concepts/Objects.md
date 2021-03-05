@@ -223,3 +223,69 @@ own right, deal with it." Then I can use the property just like a variable, beca
 
 You *can* assign a different value to your new variable, but that *will not* change the value inside the object.
 It only changes the value of the variable itself. The object property will not change to your assigned value.
+
+## Classes
+
+There is another way to create an object. You can create a 'blueprint' of your object. This is a set of instructions
+that tell the computer how you want your objects
+to behave and what data they should have. Once have your 'blueprint' written, you can create as many objects as you need.
+The 'blueprint' is called a `class`. It looks like this:
+
+```javascript
+class Person {
+    constructor(firstName, lastName){
+        this._firstName = firstName;
+        this._lastName = lastName;
+    }
+};
+
+const bill = new Person('Bill', 'Smith');
+
+console.log(bill._firstName);
+//Output is Bill
+```
+
+Let's break this down. On line 1 we are using the keyword `class`. This tells the computer we want to write a
+blueprint for an object. The name of our class is `Person`. Names of classes are always capitalized.
+This is not for the computer, its for the humans.
+By making class names capitalized, it's easy to tell you are looking at a class. After the class name there is a
+curly brace, just like any other code block would have.
+
+On line 2, we have our `constructor function`. This tells the class how to build our object. Let's cover this a little
+more closely.
+
+### Constructor Function
+
+A `constructor function` is a function that creates an object. If we wanted to create a new object we might write
+something like this:
+
+```javascript
+const makeAnObject = function(name, age){
+    let bar = {};
+    bar.name = name;
+    bar.age = age;
+  return bar;  
+};
+
+let newObject = makeAnObject('Bill', 34);
+
+console.log(newObject.name);
+//Output is Bill
+```
+
+In the above example we have written a function that does the following:
+
+1. Takes in two arguments, `name` and `age`.
+2. Declares and empty object, `let bar = {};`
+3. Adds a property to object `bar` called `name`.
+4. Adds the parameter `name` as the value of property `name`.
+5. Adds a property to object `bar` called `age`.
+6. Adds the parameter `age` as the value of property `age`.
+7. Finally, the object `bar` is returned.
+
+On the next line after the function, variable `newObject` is set equal to our function. Lastly, we log `newObject.name`
+to print `Bill` on the screen.
+
+Wow, that's a lot of stuff to do just to get an new object created! And there aren't even all that many properties in
+the object. What a pain in the ass, right? Well, here's some good news! You don't have to do that every time you want to
+create a new object. The `constructor` function does all of that *for* you.
