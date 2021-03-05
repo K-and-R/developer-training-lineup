@@ -151,3 +151,75 @@ console.log(foo);
 
 So, the difference here is you can use a variable in place of a property name *if* the variable evaluates to a string
 The string is the property name in the object.
+
+## Object Destructuring
+
+The most common way of accessing properties in an object is to use dot notation. However, there is a drawback to this method.
+What if the property you need to access is nested inside of another object, that is nested inside another object,
+that is nested inside another object........ That would make your dot notation a bit long. It might look something like this:
+
+```javascript
+const myObj = {
+    obj1 : {
+        obj2 : {
+            obj3 : {
+                name : 'Bill'
+            }
+        }
+    }
+};
+
+let foo = myObj.obj1.obj2.obj3.name;
+
+console.log(foo);
+//Output is Bill
+```
+
+That's a bit long. There is another method that simply extracts properties from the object and makes them into variables.
+This is called `destructuring`. It looks like this:
+
+```javascript
+const myObj = {
+    obj1 : {
+        obj2 : {
+            obj3 : {
+                name : 'Bill'
+            }
+        }
+    }
+};
+
+const {name} = myObj.obj1.obj2.obj3;
+
+console.log(name);
+//Output is Bill
+```
+
+Each nested object contains only the next object, except the last one. That's just to keep things simple.
+You can destructure several object properties all in one go if needed. It looks like this:
+
+```javascript
+const myObj = {
+    obj1 : {
+        obj2 : {
+            obj3 : {
+                name : 'Bill',
+                age: 34
+            }
+        }
+    }
+};
+
+const {name,age} = myObj.obj1.obj2.obj3;
+
+console.log(name, age);
+//Output is Bill 34
+```
+
+This is really the same as using dot notation. It is just easier to read and requires less typing. It also
+makes extracting properties from objects much easier. As you can see, using destructuring, I don't have to create a
+variable then assign my object property to it. I only have to say, "Hey, this property name is now a variable in its
+own right, deal with it." Then I can use the property just like a variable, because that's what it is now.
+
+You *can* assign a different value to your new variable, but that *will not* change the value inside the object.
+It only changes the value of the variable itself. The object property will not change to your assigned value.
