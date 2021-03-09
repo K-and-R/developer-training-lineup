@@ -38,7 +38,7 @@ In its simplest form, a web page consists of boxes (elements) inside boxes (bigg
 
 ```html
 <div>
-   <p>This is a paragraph element</p>
+  <p>This is a paragraph element</p>
 </div>
 ```
 
@@ -50,4 +50,4 @@ laid out in a specific order.
 
 An attribute is used to specify a particular property of an element. Different element tags have different attributes.
 These are used to more specifically define properties
-on a particular element. 
+on a particular element.
