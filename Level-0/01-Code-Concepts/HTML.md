@@ -101,14 +101,23 @@ would use a form. It looks like this:
 This bit of HTML will produce an input box with a label called "Username:". Let's break this down:
 
 1. Line one is the opening tag `<form>`.
+
 2. Next tag is `<label>`. This tag gives the textbox a label of "Username:" The opening `<label>` tag has one attribute.
+
 3. The attribute in the `<label>` tag is `for`. This designates where the label needs to be placed.
+
 4. The next tag is `<input>`. This tag tells the browser that there needs to be a input field placed inside the form.
+
 5. The `<input>` tag has three attributes.
+
 6. The `type="text"` attribute tells the browser what kind of input field should be there.
-In this case, it is a single line text field.
-7. The `name` attribute gives the input element a name for the browser to refer to. Different input elements
-can have different names.
+  In this case, it is a single line text field.
+
+7. The `name` attribute gives the input element a name for the browser to refer to.
+  Different input elements can have different names.
+
 8. Last we have the `id` attribute. This gives the element a unique identifier.
 
-The above is a common way that data can be gathered from a user. It is not the only way to do it, but it's a good place to start.
+The above is a common way that data can be
+gathered from a user. It is not the only
+way to do it, but it's a good place to start.
