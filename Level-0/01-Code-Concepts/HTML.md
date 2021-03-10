@@ -50,4 +50,65 @@ laid out in a specific order.
 
 An attribute is used to specify a particular property of an element. Different element tags have different attributes.
 These are used to more specifically define properties
-on a particular element.
+on a particular element. It looks like this:
+
+```html
+<img alt = "banana" />
+```
+
+The above is a tag used for images. It contains and attribute called `alt`. This is short for "alternate".
+It is used to descibe what the image is to visually
+challenged users or in the event the image is not viewable.
+
+You could say that the element puts a thing on the page. The attribute further describes the thing you put there or
+gives a command to the browser regarding what it
+should do with the element. In the example above
+we put an image there.
+We then added an attribute to give a
+alternative description to the image. We could have (and probably *should* have)
+also put the width and height of the image.
+It should look like this:
+
+```html
+<img alt = "banana" height = "100px" width = "100px"/>
+
+```
+
+We now have three attributes added to our image tag.
+This tells the browser that there is an alternate description for the image, that the image is 100 pixels high,
+and the image is 100 pixels wide. Attributes are placed inside the opening tag of the element.
+
+There are hundreds, maybe thousands, of different attributes.
+It would be impossible (and unnecessary) to try to learn them all. A better way to go about it is to understand
+what an attribute is, then look up the one you need.
+Of course, there are a few that you will use all the time.
+Just for your own convenience, you will probably want
+to commit those to memory.
+
+### The Form
+
+Forms are used when you want to collect information from a user. For example, say you want to have users log into your
+web site. In order to collect their data you
+would use a form. It looks like this:
+
+```html
+<form>
+  <label for="username">Username:</label>
+  <input type="text" name="username" id="username">
+</form>
+```
+
+This bit of HTML will produce an input box with a label called "Username:". Let's break this down:
+
+1. Line one is the opening tag `<form>`.
+2. Next tag is `<label>`. This tag gives the textbox a label of "Username:" The opening `<label>` tag has one attribute.
+3. The attribute in the `<label>` tag is `for`. This designates where the label needs to be placed.
+4. The next tag is `<input>`. This tag tells the browser that there needs to be a input field placed inside the form.
+5. The `<input>` tag has three attributes.
+6. The `type="text"` attribute tells the browser what kind of input field should be there.
+In this case, it is a single line text field.
+7. The `name` attribute gives the input element a name for the browser to refer to. Different input elements
+can have different names.
+8. Last we have the `id` attribute. This gives the element a unique identifier.
+
+The above is a common way that data can be gathered from a user. It is not the only way to do it, but it's a good place to start.
