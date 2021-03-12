@@ -121,3 +121,78 @@ This bit of HTML will produce an input box with a label called "Username:". Let'
 The above is a common way that data can be
 gathered from a user. It is not the only
 way to do it, but it's a good place to start.
+
+### ID's and Classes
+
+Elements of an HTML page can be identified by either an ID or a Class, or both. It looks like this :
+
+```html
+<div id = "div1" class = "line1">
+This is a div</div>
+```
+
+The `id` attribute is a unique identifier. That means that you can have only one `id` on an element. The `id` identifies
+that specific element, and only that element. When you need to refer to the element, you can do so easily by using the `id`.
+
+The `class` attribute is an identifer for multiple elements. You can have the same class on several different elements.
+If you need to refer to a group of elements, you can do that by using a `class` name. Because an `id` identifies a single
+element, and a `class` identifies a group of elements, it is possible to have both as attributes on a single element.
+See the example above.
+
+### Why Do We Need ID's and Classes
+
+Classes and ID's are used for a few things. First, they are used in styling the page. By listing the ID's and Classes in the
+CSS file, the browser can understand what element(s) you are referring to. (We will go over what a CSS file is later) ID's
+and Classes are also used in your Javascript files. When manipulating elements using Javascript, the browser
+needs to know which elements you are referring to.
+
+ID's are also used in URL's to direct the user to a specific section of a page.
+
+### Some Common Tags
+
+You can use any name inside of a tag that you want. The name does not have to designate any particular type of element.
+If you use a word other than the designated tag names,
+the browser will simply interpret the element as a `<div>` element. Even so, there are some standard types of
+elements that have standard attributes.
+It's a good idea to know what these are.
+We will cover a few here.
+
+```html
+<a href="http://www.webPage.com">
+This is a link</a>
+```
+
+This is an anchor tag. It tells the browser that the element is a link to another web page or file or even a section of the
+same page. There is an attribute here as well, `href`. This stands for "hypertext reference". The `href` atrributes specifies
+what you want to link to. The `href` value is a file path or URL.
+This tag is used when you want to connect to another web page or if you want to link different parts of your own page.
+It for *connecting* things to other things. You will always see this attribute inside of an anchor, `<a></a>`, tag.
+
+```html
+<img src="./pic.jpeg"/>
+```
+
+This is an image, `<img/>`, tag. It is used to embed an image into your page. It does not have an opening and closing tag.
+It is called a self-closing tag. Self-closing tags are known as "void" tags. This is because they may not have any content.
+This is different from a regular tag that may, but does not have to, have content inserted between the opening
+and closing tag. The `<img/>` tag has an attribute called `src`. This stands for "source".
+It tells the browser where to find the image you want to embed. The value is a file path or URL.
+
+`href` and `src` are sometimes confused. They both seem to do the same thing. However, there is a difference.
+The attribute `src` tells the browser where to find the resource to embed into the page. The attribute `href` tells the
+browser to link two pages together, or a section of the same page. So, one *embeds* a resource. The other *links* pages
+together. The confusion can happen because both use either a file path or URL.
+
+```html
+<ul>
+  <li>One</li>
+  <li>Two</li>
+  <li>Three</li>
+</ul>
+```
+
+These tags are for an `unordered list`. The "ul" in `<ul></ul>` means "unordered list". It is "unordered" because it
+will not render list numbers. Instead, it renders a bullet point.
+The other tag `<li></li>` designates a "list item". List items are nested inside unordered list tags.
+
+These tags can have `class` and `id` tags for identification and styling purposes.
