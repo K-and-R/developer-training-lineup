@@ -141,7 +141,9 @@ See the example above.
 
 ### Why Do We Need ID's and Classes
 
-Classes and ID's are used for a few things. First, they are used in styling the page. By listing the ID's and Classes in the
+Classes and ID's are used for a few things.
+First, they are used in styling the page.
+By listing the ID's and Classes in the
 CSS file, the browser can understand what element(s) you are referring to. (We will go over what a CSS file is later) ID's
 and Classes are also used in your Javascript files. When manipulating elements using Javascript, the browser
 needs to know which elements you are referring to.
