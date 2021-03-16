@@ -198,3 +198,70 @@ will not render list numbers. Instead, it renders a bullet point.
 The other tag `<li></li>` designates a "list item". List items are nested inside unordered list tags.
 
 These tags can have `class` and `id` tags for identification and styling purposes.
+
+```html
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr> 
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+```
+
+The above is a table. There are a few tags that go into creating a table. We will go over each one in order.
+
+The first tag is `<table>`. This is the opening tag. It indicates a table is being created. This tag has a closing
+tag, `</table>`. The rest of the table is wrapped in this tag.
+
+The next tag is `<tr>`. This means "table row". It begins a row of a table.
+
+The next tag is `<th>`. This means "table header". In the example, there are two headers, "Month" and "Savings".
+You can have as many table headers as you want, or none at all. They are useful, but not required.
+
+Notice how we need another `<tr>` for the data we want listed in the table. The `<tr>` tag tells the browser there is
+another row needed. It is required for every row.
+
+The last tag is `<td>`. This means "table data". Inside this tag you place the data you want displayed in your table.
+
+There's a lot of tags here. It's a bit easier to remember the *structure* of the table. A list might be helpful here
+
+1. `<table></table>` is for creating a table.
+2. `<tr>` creates a single row of the table.
+3. `<th>` creates the headers for the table. The table header is  itself a row, so it needs a `<tr>` tag.
+Every row needs this tag.
+
+4. `<td>` is the tag you use to put the data you want in the table.
+5. Every tag associated with a table has an opening tag and a closing tag.
+
+6. Data in the table are listed out left to right.
+7. When in doubt, a pencil and a piece of paper can be very helpful
+
+The tags descirbed above represent some of the trickier elements to execute. I saved the easy stuff for last. Here we go:
+
+* `<h1></h1>`
+
+    * This is Header tag. It makes the content bigger or smaller. The lower the number the bigger the letters.
+    There are 6 header levels. 1 is biggest, 6 is smallest.
+
+* `<div></div>`
+
+    * The "div" means "Division". It divides the page into a separate section, or division. Content is placed
+    within the confines of a division. You can think of it as a big box that you put stuff in. The "stuff" is other elements
+    like paragraphs or even other divisions.
+
+* `<span></span>`
+
+    * This element is known as an `inline element`. That means that it is intended to hold only a small amount of
+    content such as an image or a few lines of text. It is differnet from a `block element`.
+    Block elements are things like div's or header elements.
+    These hold blocks of content. When you place a new block element on your page it begins on a new line on that page.
+    However, an inline element can be placed insideof a larger block element without starting a new line on the page.
+
+The above covers the basics. There are plenty more where those came from. In fact, you can call your elements anything you
+want. If you do, though, know that your custom tags will all evaluate to a `<div>`. As there are so many tags to choose from,
+it is more useful for you to understand what an element *is* or, even better, figure out what you want to do, then look up
+the tag you need.
