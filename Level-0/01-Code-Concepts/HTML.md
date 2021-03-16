@@ -204,7 +204,7 @@ These tags can have `class` and `id` tags for identification and styling purpose
   <tr>
     <th>Month</th>
     <th>Savings</th>
-  </tr> 
+  </tr>
   <tr>
     <td>January</td>
     <td>$100</td>
@@ -230,14 +230,19 @@ The last tag is `<td>`. This means "table data". Inside this tag you place the d
 There's a lot of tags here. It's a bit easier to remember the *structure* of the table. A list might be helpful here
 
 1. `<table></table>` is for creating a table.
+
 2. `<tr>` creates a single row of the table.
-3. `<th>` creates the headers for the table. The table header is  itself a row, so it needs a `<tr>` tag.
-Every row needs this tag.
+
+3. `<th>` creates the headers for the table.
+    The table header is itself a row, so it needs a `<tr>` tag.
+    Every row needs this tag.
 
 4. `<td>` is the tag you use to put the data you want in the table.
+
 5. Every tag associated with a table has an opening tag and a closing tag.
 
 6. Data in the table are listed out left to right.
+
 7. When in doubt, a pencil and a piece of paper can be very helpful
 
 The tags descirbed above represent some of the trickier elements to execute. I saved the easy stuff for last. Here we go:
