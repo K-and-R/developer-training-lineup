@@ -40,11 +40,11 @@ that are used all the time. Let's cover those first.
 
 ```html
 <div id = 'first'>
-  
+
   <h1 class = 'title'>This is the title</h1>
-    
+
     <p id = 'firstPara' class = 'para'> This is the first paragraph of the page</p>
-    
+
     <p id='secondPara' class='para'>This is the second paragraph</p>
 </div>
 ```
@@ -59,13 +59,17 @@ document.getElementById('first')
 ```
 
 This method selects the element with the id attribute of "first".
-In this case, the element selected would be the `<div>` element. Usually, this method would be assigned to a variable like this:
+In this case, the element selected would be the
+`<div>` element. Usually, this method would be
+assigned to a variable like this:
 
 ```javascript
 var firstDiv = document.getElementById('first')
 ```
 
-Now, instead of having to write out the whole method we can just refer to it as `firstDiv`. This is makes the code easier to read.
+Now, instead of having to write out the whole
+method we can just refer to it as `firstDiv`.
+This is makes the code easier to read.
 
 If we wnated to select a group of elements we could use this:
 
@@ -79,15 +83,17 @@ This will select *every* element with a class name of `para`. You can also use:
 document.getElementsByTagName('div')
 ```
 
-This will select every element with a `<div>` tag name. 
+This will select every element with a `<div>` tag name.
 We can also select elements by using a CSS selector:
 
 ```javascript
 document.querySelector('#foo')
 ```
 
-This selects the first element with a CSS id of "foo". This can be a little confusing because the `id` attribute is used for
-selecting an element using a method *as well as* defining
+This selects the first element with a CSS id of "foo".
+This can be a little confusing because the `id`
+attribute is used for selecting an element using
+a method *as well as* defining
 CSS rules for the element. It looks like this:
 
 ```css
@@ -108,6 +114,8 @@ The `#` refers to the CSS Selector id, `#foo`. Now look at this:
 document.getElementById('foo')
 ```
 
-This refers to the element id, `foo`. Yes, I know, the id `foo` is used for both. But for one, `#foo`, you are referring to
+This refers to the element id, `foo`.
+Yes, I know, the id `foo` is used for both.
+But for one, `#foo`, you are referring to
 the CSS selector. The other one refers to the element attribute, `id='foo'`. When you use `document.querySelector()` the
-first element with the specified CSS selector is selected.  
+first element with the specified CSS selector is selected.
