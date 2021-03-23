@@ -20,9 +20,15 @@ The value of the `href` property would be a URL written as a string like this: `
 
 [The DOM Tree]("./../../../images/The-DOM-Tree.png)
 
-Each block on the tree is called a `node`. Each of these nodes is a plain old JavaScript object. That means they can all be accessed
-just like any JavaScript object. The tree shows the heirarchy of the objects contained within the DOM. So, what we have here is
-a series of objects nested inside other objects. All of the methods and properties of any given object on the tree can be accessed.
+Each block on the tree is called a `node`.
+Each of these nodes is a plain old JavaScript object.
+That means they can all be accessed
+just like any JavaScript object.
+The tree shows the heirarchy of the objects contained
+within the DOM. So, what we have here is
+a series of objects nested inside other objects.
+All of the methods and properties of any given
+object on the tree can be accessed.
 
 ## Why Is This Important?
 
@@ -116,6 +122,8 @@ The querySelector method can select an element by any CSS selector.
 In the example above, the element is being selected by its ID, `foo`.
 But you can use any selector associated with the element in the querySelector method.
 
-It is more common to see `document.getElementById` being used to select elements. There is not, unfortunately, any hard, fast
-rules regarding this. We suggest you use `getElementById` rather
+It is more common to see `document.getElementById`
+being used to select elements. There is not, unfortunately,
+any hard, fast rules regarding this.
+We suggest you use `getElementById` rather
 then `querySelector` when selecting elements.
