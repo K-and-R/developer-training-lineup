@@ -1,9 +1,10 @@
 # The Document Object Model
 
 The Document Object Model is a pattern for organizing an html page into a logical order. This order takes the form of a tree
-structure. Each element on this tree is an object containing properties and methods. All of them can be accessed just like
-regular JavaScript objects. This is because they are
-all regular JavaScript objects.
+structure. Each element on this tree is an object containing properties and methods. This structure allows for computer
+languages to interact with an HTML page.
+Any language can interact with the DOM.
+However, usually the language used is JavaScript. 
 
 Attributes such as `class` or `id` are not nodes. Rather they are properties of the elements to which they are appended.
 If the attribute is a standard attribute, like the ones
@@ -127,3 +128,57 @@ being used to select elements. There is not, unfortunately,
 any hard, fast rules regarding this.
 We suggest you use `getElementById` rather
 then `querySelector` when selecting elements.
+
+## DOM Events
+
+DOM events are actions taken by either the user or the browser that initiate changes to the DOM. Clicking on an element,
+moving the mouse over an element, or pressing a key on
+the keyboard are examples of events.
+
+There are a couple of different ways to tell the browser you want to create an event. The first method is to use
+`addEventListener`. This method listens for an event to occur. It is often used in conjuction with the DOM methods above.
+It looks like this:
+
+```javascript
+
+let title = document.getElementById('title');
+
+title.addEventListener('click', someFunction);
+```
+
+In the above example `document.getElementById('title')` selects an element with the attribute `id = 'title'`.
+This element is stored in the variable `title`. This variable then has another method called on it,`addEventListener`.
+This method tells the browser that the element stored
+in the variable `title`should "listen" for an event to occur. The method takes two arguments. The first one indicates what
+type of event to listen for. In the example, this event
+ is a `click` event. The second argument tells the browser which function to call when a click is detected. Let's look at the
+ whole thing together:
+
+ ```javascript
+
+ let title = document.getElementById('title');
+
+ let someFunction = function(){
+   document.getElementById('title').innerHTML = "new title";
+ }
+
+ title.addEventListener('click', someFunction);
+ ```
+
+The first line stores the element in a variable called `title`.\
+The next line is a function that changes the title element's
+text to read "new title". The last line adds the event
+listener to the element and specifies that the event to
+listen for is a click of the mouse and the function to
+fire is called `someFunction`.
+
+When a user clicks on the `title` element the text will change to read "new title".
+
+The above is just one way to add interactivity to your webpage. You can also register an event this way:
+
+```javascript
+document.getElementById('title').onclick = function(e){
+  document.getElementById('title').innerHTML = "new title";
+};
+```
+
