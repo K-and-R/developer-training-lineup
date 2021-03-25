@@ -233,9 +233,9 @@ It looks like this:
 
 ```javascript
 let changeColor = function(){
-  
+
   event.target.style.backgroundColor = 'red';
-  
+
   };
 ```
 
