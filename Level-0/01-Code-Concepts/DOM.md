@@ -4,7 +4,7 @@ The Document Object Model is a pattern for organizing an html page into a logica
 structure. Each element on this tree is an object containing properties and methods. This structure allows for computer
 languages to interact with an HTML page.
 Any language can interact with the DOM.
-However, usually the language used is JavaScript. 
+However, usually the language used is JavaScript.
 
 Attributes such as `class` or `id` are not nodes. Rather they are properties of the elements to which they are appended.
 If the attribute is a standard attribute, like the ones
@@ -151,19 +151,20 @@ This element is stored in the variable `title`. This variable then has another m
 This method tells the browser that the element stored
 in the variable `title`should "listen" for an event to occur. The method takes two arguments. The first one indicates what
 type of event to listen for. In the example, this event
- is a `click` event. The second argument tells the browser which function to call when a click is detected. Let's look at the
- whole thing together:
+is a `click` event. The second argument tells the browser
+which function to call when a click is detected.
+Let's look at the whole thing together:
 
- ```javascript
+```javascript
 
- let title = document.getElementById('title');
+let title = document.getElementById('title');
 
- let someFunction = function(){
-   document.getElementById('title').innerHTML = "new title";
- }
+let someFunction = function(){
+  document.getElementById('title').innerHTML = "new title";
+}
 
- title.addEventListener('click', someFunction);
- ```
+title.addEventListener('click', someFunction);
+```
 
 The first line stores the element in a variable called `title`.\
 The next line is a function that changes the title element's
