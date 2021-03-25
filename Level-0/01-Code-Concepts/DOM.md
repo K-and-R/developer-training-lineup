@@ -183,3 +183,73 @@ document.getElementById('title').onclick = function(e){
 };
 ```
 
+You can also use the `.on` method to do much the same thing as above. It looks like this:
+
+```javascript
+let button - getElementById('button');
+
+let changeColor = function(){
+  button.style.backgroundColor = 'red';
+};
+
+button.onclick = changeColor;
+```
+
+You are not required to write named function for either of these methods. You can use an anonymous function instead.
+It looks like this:
+
+```javascript
+button.onclick = function(){
+  button.style.backgroundColor = 'red';
+};
+```
+
+or
+
+```javascript
+button.addEventListener('click', () => {button.style.backgroundColor = 'red'});
+```
+
+There is one big difference between using `.on` and `addEventListener`. If you are using the `.on` method you can only
+register one event to the target element.
+By using `addEventListener` you can add as many
+events as you want to a single target element.
+In the examples above only one event handler was
+added using both methods.
+If more than one function needed to be fired in
+response to the event you would need to use
+the `addEventListener` method. If it doesn't matter,
+using the `.on` method works.
+
+## The Event Object
+
+When an event is occurs and the function associated with the event is fired, an object is passed as an argument to the
+event handler function. This object is called the `event object`.
+It contains information about the event that has just occurred.
+The data contained in this object can be used in your
+event handlers.
+
+It looks like this:
+
+```javascript
+let changeColor = function(){
+  
+  event.target.style.backgroundColor = 'red';
+  
+  };
+```
+
+Ok, let's translate this into English. It does not appear there is a parameter for the function above. Nevertheless, the
+function does receive an argument. The argument is an object.
+This object has information about the event.
+In fact, it has lots of data about the event.
+Most of it we don't care about, but some of it we very much do.
+The `.target` property is the element that the event is
+registered to. Notice that no specific element is referred to in the function. It just says `event.target`.
+This refers to the target (the element the event fired on). The event object has as a property called `.target`.
+This refers to the element that the user (or the browser)
+interacted with that caused the event handler function to be called.
+That means that you can cycle *any* element that has this event handler registered to it. This is useful when you want to
+loop through a series of elements in an array,
+for instance. By using the event object and its properties, you can create an event handler function that is not dependant
+upon one specific element.
