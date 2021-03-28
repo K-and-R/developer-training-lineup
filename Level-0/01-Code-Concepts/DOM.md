@@ -221,13 +221,52 @@ response to the event you would need to use
 the `addEventListener` method. If it doesn't matter,
 using the `.on` method works.
 
+## Propagation and Bubbling
+
+When an event is fired it is not just fired in the element where it lives. It is fired in *all* elements associated with that
+element. The event travels outward to the outermost
+element or it starts from the outermost element and moves inward.
+All along the way it looks to see if there is an event
+handler to call. If there is, it initiates the event handler.
+If not, it moves on until it finds an event handler
+that matches the event. In most modern browsers the
+event takes a round trip, moving outward then
+moving back inward. When the event travels *down* the
+DOM tree it is referred to as `propagation`.
+When the event travels*up* the DOM tree it is
+referred to as `bubbling`.
+
+Because the event travels firing any event handler
+that matches the event, you can have multiple events
+all fire at the same time. That may not be what is wanted.
+`Propagation` and `bubbling` can be interrupted by using the method
+`.stopPropagation()`. It looks like this:
+
+```javascript
+let textElement = document.getElementById('text');
+
+let changeColor = function(){
+  textElement.style.backgroundColor = 'red';
+  e.stopPropagation();
+};
+
+textElement.addEventListener('click', changeColor);
+```
+
+In the example above, we have and element stored in the variable `textElement`. Next we have a function that changes the
+background color of the target element.
+It also has the `.stopPropagation()`. This will prevent
+the event from traveling up and down the DOM tree.
+
+Finally, an event listener is added to `textElement`.
+When the element is clicked, the function fires and
+the `.stopPropagation()` is called.  
+
 ## The Event Object
 
 When an event is occurs and the function associated with the event is fired, an object is passed as an argument to the
 event handler function. This object is called the `event object`.
 It contains information about the event that has just occurred.
-The data contained in this object can be used in your
-event handlers.
 
 It looks like this:
 
@@ -239,17 +278,5 @@ let changeColor = function(){
   };
 ```
 
-Ok, let's translate this into English. It does not appear there is a parameter for the function above. Nevertheless, the
-function does receive an argument. The argument is an object.
-This object has information about the event.
-In fact, it has lots of data about the event.
-Most of it we don't care about, but some of it we very much do.
-The `.target` property is the element that the event is
-registered to. Notice that no specific element is referred to in the function. It just says `event.target`.
-This refers to the target (the element the event fired on). The event object has as a property called `.target`.
-This refers to the element that the user (or the browser)
-interacted with that caused the event handler function to be called.
-That means that you can cycle *any* element that has this event handler registered to it. This is useful when you want to
-loop through a series of elements in an array,
-for instance. By using the event object and its properties, you can create an event handler function that is not dependant
-upon one specific element.
+The event object contains all of the data about the event itself.
+This object is the thing that does the traveling when the event propagates. 
