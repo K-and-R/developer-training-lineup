@@ -223,7 +223,9 @@ using the `.on` method works.
 
 ## Propagation and Bubbling
 
-When an event is fired it is not just fired in the element where it lives. It is fired in *all* elements associated with that
+When an event is fired it is not just fired in
+the element where it lives. It is fired in *all*
+elements associated with that
 element. The event travels outward to the outermost
 element or it starts from the outermost element and moves inward.
 All along the way it looks to see if there is an event
@@ -260,7 +262,7 @@ the event from traveling up and down the DOM tree.
 
 Finally, an event listener is added to `textElement`.
 When the element is clicked, the function fires and
-the `.stopPropagation()` is called.  
+the `.stopPropagation()` is called.
 
 ## The Event Object
 
@@ -279,4 +281,4 @@ let changeColor = function(){
 ```
 
 The event object contains all of the data about the event itself.
-This object is the thing that does the traveling when the event propagates. 
+This object is the thing that does the traveling when the event propagates.
