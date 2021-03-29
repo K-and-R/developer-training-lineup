@@ -266,19 +266,40 @@ the `.stopPropagation()` is called.
 
 ## The Event Object
 
-When an event is occurs and the function associated with the event is fired, an object is passed as an argument to the
-event handler function. This object is called the `event object`.
-It contains information about the event that has just occurred.
+The Event Object contains all of the properties and methods for all events. It is the parent object for all other event
+objects. Event objects like MouseEvent for mouse interaction or KeyboardEvent for keyboard interactions inherit their methods
+and properties from the Event Object.
 
+When an event is detected, the event object is created.
+It is then passed as an argument to the event handler function.
+The function is then executed on the element.
 It looks like this:
 
 ```javascript
-let changeColor = function(){
+let myElement = document.getElementById('foo');
 
+let changeColor = function(e){
   event.target.style.backgroundColor = 'red';
+};
 
-  };
+myElement.addEventListener('click', changeColor);
 ```
 
-The event object contains all of the data about the event itself.
-This object is the thing that does the traveling when the event propagates.
+In the above example `e` is short for `event`. Writing it as a parameter for the function is optional.
+But if you are interested in using any of the properties of the event, you must specify it as a parameter in your event
+handler function. It might look like this:
+
+```javascript
+let getTime = function(e){
+  document.getElementById('textArea').innerHTML = e.timeStamp
+};
+```
+
+In the event handler function above, the event is passed as an argument to the function. The innerHTML of the element will
+display the length of time required to execute the
+function by accessing the property `.timeStamp`
+contained in the event object.
+If no parameter is set, the function won't work.
+This is an example of needing to pass the event to the
+function because we want to use some data contained
+in the event object. 
