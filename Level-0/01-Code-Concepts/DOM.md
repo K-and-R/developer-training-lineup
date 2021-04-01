@@ -131,13 +131,28 @@ then `querySelector` when selecting elements.
 
 ## DOM Events
 
-DOM events are actions taken by either the user or the browser that initiate changes to the DOM. Clicking on an element,
-moving the mouse over an element, or pressing a key on
-the keyboard are examples of events.
+An event is anything that happens in a webpage. Events are happening all the time. Every click or mouse movement or any change
+at all is an event. They are happening all the time whether
+you are aware of it or not. If the user presses a key on
+the keyboard or clicks the mouse an event is registered.
+It may not acutally do anything on the page, but it is "seen"
+by the DOM as an event.
 
-There are a couple of different ways to tell the browser you want to create an event. The first method is to use
-`addEventListener`. This method listens for an event to occur. It is often used in conjuction with the DOM methods above.
-It looks like this:
+Say, for instance, you have a button element on a page. You haven't written any code telling the DOM what you want to with
+the button, it just lives on your page. If you click on this button, an event is registered. It doesn't cause anything to
+happen, but it is seen by the DOM as an event.
+
+Now, we want that button to do something, otherwise
+we wouldn't have gone to all the trouble to put it there
+in the first place. What we want to tell the DOM is
+something like, "If you see someone click on this
+element, I want you to run this function I wrote, Ok?".
+Note that you are not "creating" an event.
+The event going to happen regardless. All you are saying
+is that that specific event is one you are interested in.
+You do this by using a method,`.addEventListener`.
+The method takes two arguments, the type of event and
+the function you want to run.
 
 ```javascript
 
@@ -146,14 +161,21 @@ let title = document.getElementById('title');
 title.addEventListener('click', someFunction);
 ```
 
-In the above example `document.getElementById('title')` selects an element with the attribute `id = 'title'`.
-This element is stored in the variable `title`. This variable then has another method called on it,`addEventListener`.
-This method tells the browser that the element stored
-in the variable `title`should "listen" for an event to occur. The method takes two arguments. The first one indicates what
-type of event to listen for. In the example, this event
-is a `click` event. The second argument tells the browser
-which function to call when a click is detected.
-Let's look at the whole thing together:
+On the first line of the example above we have selected an element and stored it in the variable `title`. This is the element
+we are interested in. We let the DOM know we are
+interested by attaching the method `.addEventListener` to the element. Now, we have to let the DOM know precisely *what* kind
+of event we are interested in.
+That's the first argument, `'click'`.
+Next we have to tell the DOM what function we want to
+run if a click is detected. There are two ways we can do this.
+We can use a named function or we can use an anonymous function.
+Now, if the DOM detects a click on that, specific element the function will be fired.
+
+Very often you will hear the term "create an event". This is not accurate. The events are already there.
+All you are doing with the `.eventListener` method is
+telling the DOM you want it to invoke a function when
+a specific event is detected.
+The event would have been detected by the DOM anyway.
 
 ```javascript
 
@@ -166,7 +188,7 @@ let someFunction = function(){
 title.addEventListener('click', someFunction);
 ```
 
-The first line stores the element in a variable called `title`.\
+The first line stores the element in a variable called `title`.
 The next line is a function that changes the title element's
 text to read "new title". The last line adds the event
 listener to the element and specifies that the event to
@@ -264,6 +286,10 @@ Finally, an event listener is added to `textElement`.
 When the element is clicked, the function fires and
 the `.stopPropagation()` is called.
 
+## The Event Interface
+
+An interface is a progr
+
 ## The Event Object
 
 The Event Object contains all of the properties and methods for all events. It is the parent object for all other event
@@ -302,4 +328,5 @@ contained in the event object.
 If no parameter is set, the function won't work.
 This is an example of needing to pass the event to the
 function because we want to use some data contained
-in the event object. 
+in the event object.
+
