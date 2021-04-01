@@ -163,13 +163,15 @@ title.addEventListener('click', someFunction);
 
 On the first line of the example above we have selected an element and stored it in the variable `title`. This is the element
 we are interested in. We let the DOM know we are
-interested by attaching the method `.addEventListener` to the element. Now, we have to let the DOM know precisely *what* kind
-of event we are interested in.
+interested by attaching the method `.addEventListener`
+to the element. Now, we have to let the DOM know
+precisely *what* kind of event we are interested in.
 That's the first argument, `'click'`.
 Next we have to tell the DOM what function we want to
 run if a click is detected. There are two ways we can do this.
 We can use a named function or we can use an anonymous function.
-Now, if the DOM detects a click on that, specific element the function will be fired.
+Now, if the DOM detects a click on that, specific
+element the function will be fired.
 
 Very often you will hear the term "create an event". This is not accurate. The events are already there.
 All you are doing with the `.eventListener` method is
