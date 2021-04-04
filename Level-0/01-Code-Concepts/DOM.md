@@ -258,14 +258,14 @@ If not, it moves on until it finds an event handler
 that matches the event. In most modern browsers the
 event takes a round trip, moving outward then
 moving back inward. When the event travels *down* the
-DOM tree it is referred to as `propagation`.
-When the event travels*up* the DOM tree it is
+DOM tree it is referred to as `capturing`.
+When the event travels *up* the DOM tree it is
 referred to as `bubbling`.
 
 Because the event travels firing any event handler
 that matches the event, you can have multiple events
 all fire at the same time. That may not be what is wanted.
-`Propagation` and `bubbling` can be interrupted by using the method
+`capturing` and `bubbling` can be interrupted by using the method
 `.stopPropagation()`. It looks like this:
 
 ```javascript
@@ -279,7 +279,7 @@ let changeColor = function(){
 textElement.addEventListener('click', changeColor);
 ```
 
-In the example above, we have and element stored in the variable `textElement`. Next we have a function that changes the
+In the example above, we have an element stored in the variable `textElement`. Next we have a function that changes the
 background color of the target element.
 It also has the `.stopPropagation()`. This will prevent
 the event from traveling up and down the DOM tree.
@@ -290,18 +290,27 @@ the `.stopPropagation()` is called.
 
 ## The Event Interface
 
-An interface is a progr
+An interface is a programming structure that contains a set of methods. These methods have no code in them. They only have
+their names, any parameters they need, and return value
+types, if any. The are effectively "empty". However, these methods *must* be contained in your code in order to use the
+interface. These functions are defined in your code by *you*. Again, they have to be there in order to use the interface.
+
+This can seem confusing. Let's say you have a toaster. By itself, the toaster has everything it needs to make toast....well, almost.
+No bread is getting toasted unless there is some power to run the toaster. The toaster needs to connect to the outlet to
+receive electricity to heat up the toaster element.
+The outlet requires that the toaster have a plug and
+a wire for the electricity to travel through.
+These things *have* to be there or the toaster cannot utilize the electricity. The outlet *expects* the plug and cord to be there.
+If the toaster has these things it can then *interface*
+with the toaster.
+
+The Event Interface is just as described above. It is a set of functions relating to the implementation of events in the DOM.
+Each type of event has its own interface. These interfaces inherit properties and methods from the Event interface.
 
 ## The Event Object
 
-The Event Object contains all of the properties and methods for all events. It is the parent object for all other event
-objects. Event objects like MouseEvent for mouse interaction or KeyboardEvent for keyboard interactions inherit their methods
-and properties from the Event Object.
-
-When an event is detected, the event object is created.
-It is then passed as an argument to the event handler function.
-The function is then executed on the element.
-It looks like this:
+Whenever an event is detected an event object is created. This object contains information about the event that has just
+occurred. You can use the data in your code.
 
 ```javascript
 let myElement = document.getElementById('foo');
@@ -323,7 +332,7 @@ let getTime = function(e){
 };
 ```
 
-In the event handler function above, the event is passed as an argument to the function. The innerHTML of the element will
+In the event handler function above, the event is passed as an argument to the function. The `innerHTML` of the element will
 display the length of time required to execute the
 function by accessing the property `.timeStamp`
 contained in the event object.
@@ -331,4 +340,3 @@ If no parameter is set, the function won't work.
 This is an example of needing to pass the event to the
 function because we want to use some data contained
 in the event object.
-
