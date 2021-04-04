@@ -295,17 +295,25 @@ their names, any parameters they need, and return value
 types, if any. The are effectively "empty". However, these methods *must* be contained in your code in order to use the
 interface. These functions are defined in your code by *you*. Again, they have to be there in order to use the interface.
 
-This can seem confusing. Let's say you have a toaster. By itself, the toaster has everything it needs to make toast....well, almost.
-No bread is getting toasted unless there is some power to run the toaster. The toaster needs to connect to the outlet to
+This can seem confusing. Let's say you have a toaster.
+By itself, the toaster has everything it needs to
+make toast....well, almost. No bread is getting toasted
+unless there is some power to run the toaster.
+The toaster needs to connect to the outlet to
 receive electricity to heat up the toaster element.
 The outlet requires that the toaster have a plug and
 a wire for the electricity to travel through.
-These things *have* to be there or the toaster cannot utilize the electricity. The outlet *expects* the plug and cord to be there.
+These things *have* to be there or the toaster
+cannot utilize the electricity. The outlet *expects*
+the plug and cord to be there.
 If the toaster has these things it can then *interface*
 with the toaster.
 
-The Event Interface is just as described above. It is a set of functions relating to the implementation of events in the DOM.
-Each type of event has its own interface. These interfaces inherit properties and methods from the Event interface.
+The Event Interface is just as described above.
+It is a set of functions relating to the implementation
+of events in the DOM. Each type of event has its
+own interface. These interfaces inherit properties
+and methods from the Event interface.
 
 ## The Event Object
 
