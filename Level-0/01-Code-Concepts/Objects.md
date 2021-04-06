@@ -319,14 +319,14 @@ functionality like this:
 ```javascript
 class AnObject{
 
-   constructor(name, age){
+    constructor(name, age){
       this._name = name;
       this._age = age;
       }
-      
-   get printName() {console.log(this._name)}
-   
-   changeName(name){this._name = name;}
+
+    get printName() {console.log(this._name)}
+
+    changeName(name){this._name = name;}
 
 };
 
@@ -342,4 +342,4 @@ myObject.printName;
 In the class definition above some methods have been added. The first method is a `getter method`. This method is used to
 retrieve data from the object. The second method allows the user to change the value of the `name` property. At the bottom
 of the code block you can see where both methods have
-been called using `dot notation`. 
+been called using `dot notation`.
