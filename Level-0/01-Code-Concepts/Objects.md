@@ -289,3 +289,57 @@ to print `Bill` on the screen.
 Wow, that's a lot of stuff to do just to get an new object created! And there aren't even all that many properties in
 the object. What a pain in the ass, right? Well, here's some good news! You don't have to do that every time you want to
 create a new object. The `constructor` function does all of that *for* you.
+
+Let's refactor the last example using a constructor function:
+
+```javascript
+class AnObject {
+    constructor(name, age){
+        this._name = name;
+        this._age = age;
+    }
+};
+
+let myObject = new AnObject('Jim', 34);
+```
+
+Above we have created a class called `AnObject`.
+We tell the class how to build an instance of the class
+(an object) by using a function.
+This function is called the `constructor`. This function has two parameters, `name` and `age`. When we create a new instance
+of the class, as we did on the last line of the example
+above, we give the constructor function the information `name`
+and `age`. The constructor then creates a new object with the
+properties we gave it. In this case, `'Jim'` and `34`.
+The keyword, `new`, invokes the constructor function.
+
+An object also contains functionality. We can add
+functionality like this:
+
+```javascript
+class AnObject{
+
+   constructor(name, age){
+      this._name = name;
+      this._age = age;
+      }
+      
+   get printName() {console.log(this._name)}
+   
+   changeName(name){this._name = name;}
+
+};
+
+let myObject = new AnObject('Jim', 54);
+
+myObject.changeName('Bill');
+
+myObject.printName;
+
+};
+```
+
+In the class definition above some methods have been added. The first method is a `getter method`. This method is used to
+retrieve data from the object. The second method allows the user to change the value of the `name` property. At the bottom
+of the code block you can see where both methods have
+been called using `dot notation`. 
