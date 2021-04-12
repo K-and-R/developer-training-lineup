@@ -330,8 +330,11 @@ let changeColor = function(e){
 myElement.addEventListener('click', changeColor);
 ```
 
-In the above example `e` is short for `event`. Writing it as a parameter for the function is optional.
-But if you are interested in using any of the properties of the event, you must specify it as a parameter in your event
+In the above example `e` is short for `event`. Writing it as
+a parameter for the function is optional.
+But if you are interested in using any of
+properties of the event, you must specify it
+as a parameter in your event
 handler function. It might look like this:
 
 ```javascript
@@ -340,7 +343,9 @@ let getTime = function(e){
 };
 ```
 
-In the event handler function above, the event is passed as an argument to the function. The `innerHTML` of the element will
+In the event handler function above, the event is passed as
+an argument to the function.
+The `innerHTML` of the element will
 display the length of time required to execute the
 function by accessing the property `.timeStamp`
 contained in the event object.
@@ -348,3 +353,13 @@ If no parameter is set, the function won't work.
 This is an example of needing to pass the event to the
 function because we want to use some data contained
 in the event object.
+
+## Overview
+
+Very often it is necessary to detail the specifics of a
+piece of code, or its syntax, or a particular type of
+data structure. The details can get confusing.
+Sometimes it is helpful to get a very simple overview
+of the thing we are trying to describe.
+Ultimately, these different aspects of computing are
+quite simple, at least in their concept.
