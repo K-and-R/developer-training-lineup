@@ -270,3 +270,13 @@ The above covers the basics. There are plenty more where those came from. In fac
 want. If you do, though, know that your custom tags will all evaluate to a `<div>`. As there are so many tags to choose from,
 it is more useful for you to understand what an element *is* or, even better, figure out what you want to do, then look up
 the tag you need.
+
+## HTML A Structure
+
+You may hear that HTML is a programming language. It is not. It is easy to see, however, why someone might think that way.
+After all, you are giving the browser instructions.
+This would seem to indicate HTML is a kind of programming language.
+
+A programming language *is* used to give instructions, but these instructions are much wider in their scope than HTML.
+HTML provides a skeleton that tells the brower *how* to display your webpage. It provides the page's structure.
+When you add attributes you are giving the browser more detailed instructions about how it should render your page. 
