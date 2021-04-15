@@ -279,4 +279,4 @@ This would seem to indicate HTML is a kind of programming language.
 
 A programming language *is* used to give instructions, but these instructions are much wider in their scope than HTML.
 HTML provides a skeleton that tells the brower *how* to display your webpage. It provides the page's structure.
-When you add attributes you are giving the browser more detailed instructions about how it should render your page. 
+When you add attributes you are giving the browser more detailed instructions about how it should render your page.
