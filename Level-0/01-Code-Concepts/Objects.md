@@ -446,34 +446,34 @@ It looks like this:
 
 ```javascript
 class Shape{
-   constructor(name, numOfSides, sideLength){
+    constructor(name, numOfSides, sideLength){
       this._name = name;
       this._numOfSides = numOfSides;
       this._sideLength = sideLength;
       }
-      
+
         getName(){
           console.log(this._name)
-         }
+        }
         getNumOfSides(){
           console.log(this._numOfSides)
-         }
-         
+        }
+
         getSideLength(){
           console.log(this._sideLength)
-         }
-         
+        }
+
         setName(newName){
           this._name = newName
-         }
-         
+        }
+
         setNumOfSides(numSides){
           this._numOfSides = numSides
-         }
-         
+        }
+
         setSideLength(side){
           this._sideLength = side
-         }
+        }
 }
 ```
 
