@@ -442,6 +442,40 @@ methods. One exception are private properties and methods.
 Another exception is the constructor method. The constructor is not a normal class method and is not inherited by child classes.
 When you instantiate the parent class, the constructor method of the parent class will be called.
 When you want to let one class inherit from another use the `extends` keyword followed by the parent’s class name.
+It looks like this:
+
+```javascript
+class Shape{
+   constructor(name, numOfSides, sideLength){
+      this._name = name;
+      this._numOfSides = numOfSides;
+      this._sideLength = sideLength;
+      }
+      
+        getName(){
+          console.log(this._name)
+         }
+        getNumOfSides(){
+          console.log(this._numOfSides)
+         }
+         
+        getSideLength(){
+          console.log(this._sideLength)
+         }
+         
+        setName(newName){
+          this._name = newName
+         }
+         
+        setNumOfSides(numSides){
+          this._numOfSides = numSides
+         }
+         
+        setSideLength(side){
+          this._sideLength = side
+         }
+}
+```
 
 ### Polymorphism
 
