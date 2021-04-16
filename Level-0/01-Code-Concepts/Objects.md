@@ -343,3 +343,115 @@ In the class definition above some methods have been added. The first method is 
 retrieve data from the object. The second method allows the user to change the value of the `name` property. At the bottom
 of the code block you can see where both methods have
 been called using `dot notation`.
+
+## The 4 Principles of OOP
+
+There are four basic ideas regarding Object Oriented Programming.
+That means that there are four different concepts that
+up the paradigm of OOP. As mentioned earlier,
+there are a few different ways one can go about writing computer programs. Each "way" is referred to a paradigm.
+The word `paradigm` means "*A typical example or pattern
+of something; a model.*" -Definitions from Oxford Languages.
+One can write a program that uses one instruction at a time in
+a long list of instructions. Each one of these
+instructions is executed in order, one at a time.
+This is a `Procedural` paradigm. Grouping code into
+reuseable blocks is a `Functional` paradigm.
+
+`Object Oriented Programming` is a paradigm that uses
+Objects and Classes to accomplish the tasks required
+in a computer program. This paradigm is achieved by use of the four principles of OOP (Object Oriented Programming).
+
+### Encapsulation
+
+The first of the four core principles in object-oriented programming is encapsulation.
+The idea of encapsulation is that the data and code (like in a method definition) defined in the class  should not be visible
+to end users. For example, let’s say you have a class.
+Implementing the principle of encapsulation would mean that all
+properties of this class are private, hidden from other classes.
+
+The only way to access these class properties would be through public accessor methods (sometimes referred to as `getter` and
+`setter` methods) of that class.
+An Accessor method is a method created for the purpose of accessing specific class property. This practice of hiding
+information or data about implementation is called “data hiding”.
+
+To implement encapsulation in JavaScript, we create new class.
+Inside it, we declare two new properties, also called fields and members.
+We make all of them private. This will ensure all these properties are hidden.
+They will be inaccessible from the outside of the class. From now, the only way to access them is through methods inside that
+class.
+
+This is the next thing we will do. We will create public setter and getter methods for each private property.
+These methods will allow us to view and modify
+values of these properties.
+
+```javascript
+class Animal{
+  constructor(name, breed, origin){
+    this._name = name;
+    this._breed = breed;
+    this._origin = origin;
+    }
+    
+    getName(){
+      return this._name;
+      }
+   
+   getBreed(){
+      return this._breed;
+      }
+     
+   getOrigin(){
+      return this._origin;
+      }
+     
+     
+   setName(name){
+     this._name = name;
+     return name;
+     }
+};        
+
+let gabby = new Animal('Gabby', 'Tabby', 'Scotland');
+console.log(gabby.getOrigin());
+console.log(gabby.getName());
+console.log(gabby.getBreed());
+```
+
+### Inheritance
+
+Inheritance is the most used principle of object-oriented programming. This makes sense. Real world objects can very similar
+to each other. A lot of objects are *almost* identical, but not quite.
+For example, a dog and a cat are both animals.
+They both have four legs. They both can walk and make sounds.
+They both have fur. They are similar, but not the same.
+
+Inheritance allows you to create similar classes from a parent class. The parent class would hold all of the properties and
+methods common to both dogs and cats. This helps you avoid writing the same code over again and again.
+Instead, you can let your dog and cat classes “inherit” from this separate class.
+The main class that holds all of the common properties of both dogs and cats is called a `parent class` or `super-class`.
+The `dog` class and the `cat` class *inherit* all of the properties and methods from the `super-class`.
+
+Classes that inherit from this “parent” class are called “child classes”, “subclasses” or “derived” classes.
+When some class (child class) inherits from another class (parent class), it inherits all of the parent’s properties and
+methods. One exception are private properties and methods.
+
+Another exception is the constructor method. The constructor is not a normal class method and is not inherited by child classes.
+When you instantiate the parent class, the constructor method of the parent class will be called.
+When you want to let one class inherit from another use the `extends` keyword followed by the parent’s class name.
+
+### Polymorphism
+
+Polymorphism is the third of principles of object-oriented programming.
+The word “polymorphism” means having “more than one form”.
+You know about the principle of inheritance and how it works.
+About polymorphism. Let’s say you have a couple of classes related to each other
+through inheritance, parent class and child classes.
+
+In order for polymorphism to occur two things have to happen.
+First, one of these child classes creates its own method.
+Second, this method in some way overrides a method with the same name that is declared in parent’s class.
+For example, let’s say you have a class Dog and Cat. Both inherit from the Animal class.
+
+The Animal class has speak() method. Both child classes Dog and Cat also has their own implementation of speak() method.
+In both cases, this method returns a different result.
