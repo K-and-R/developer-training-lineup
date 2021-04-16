@@ -370,16 +370,20 @@ to end users. For example, let’s say you have a class.
 Implementing the principle of encapsulation would mean that all
 properties of this class are private, hidden from other classes.
 
-The only way to access these class properties would be through public accessor methods (sometimes referred to as `getter` and
-`setter` methods) of that class.
-An Accessor method is a method created for the purpose of accessing specific class property. This practice of hiding
+The only way to access these class properties would be
+through public accessor methods (sometimes referred to
+as `getter` and `setter` methods) of that class.
+An Accessor method is a method created for the purpose
+of accessing specific class property. This practice of hiding
 information or data about implementation is called “data hiding”.
 
 To implement encapsulation in JavaScript, we create new class.
-Inside it, we declare two new properties, also called fields and members.
-We make all of them private. This will ensure all these properties are hidden.
-They will be inaccessible from the outside of the class. From now, the only way to access them is through methods inside that
-class.
+Inside it, we declare two new properties,
+also called fields and members. We make all of them private.
+This will ensure all these properties are hidden.
+They will be inaccessible from the outside of the class.
+From now, the only way to access them is through methods
+inside that class.
 
 This is the next thing we will do. We will create public setter and getter methods for each private property.
 These methods will allow us to view and modify
@@ -392,25 +396,24 @@ class Animal{
     this._breed = breed;
     this._origin = origin;
     }
-    
+
     getName(){
       return this._name;
       }
-   
-   getBreed(){
+
+    getBreed(){
       return this._breed;
       }
-     
-   getOrigin(){
+
+    getOrigin(){
       return this._origin;
       }
-     
-     
-   setName(name){
-     this._name = name;
-     return name;
-     }
-};        
+
+    setName(name){
+      this._name = name;
+      return name;
+      }
+};
 
 let gabby = new Animal('Gabby', 'Tabby', 'Scotland');
 console.log(gabby.getOrigin());
