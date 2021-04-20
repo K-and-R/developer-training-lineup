@@ -446,7 +446,7 @@ It looks like this:
 
 ```javascript
 class Shape{
-    constructor(name, numOfSides, sideLength){
+    constructor()){
       this._name = name;
       this._numOfSides = numOfSides;
       this._sideLength = sideLength;
@@ -475,6 +475,17 @@ class Shape{
           this._sideLength = side
         }
 }
+
+class Square{
+
+  constructor(
+    super()){
+    this._numberOfSides = 4;
+    this._sideLength = sideLength;
+    this._name = 'square';
+    }
+  
+}
 ```
 
 ### Polymorphism
@@ -482,13 +493,13 @@ class Shape{
 Polymorphism is the third of principles of object-oriented programming.
 The word “polymorphism” means having “more than one form”.
 You know about the principle of inheritance and how it works.
-About polymorphism. Let’s say you have a couple of classes related to each other
+Let’s say you have a couple of classes related to each other
 through inheritance, parent class and child classes.
 
 In order for polymorphism to occur two things have to happen.
 First, one of these child classes creates its own method.
 Second, this method in some way overrides a method with the same name that is declared in parent’s class.
-For example, let’s say you have a class Dog and Cat. Both inherit from the Animal class.
+For example, let’s say you have a class `Dog` and `Cat`. Both inherit from the `Animal` class.
 
-The Animal class has speak() method. Both child classes Dog and Cat also has their own implementation of speak() method.
+The Animal class has `speak()` method. Both child classes `Dog` and `Cat` also has their own implementation of `speak()` method.
 In both cases, this method returns a different result.
