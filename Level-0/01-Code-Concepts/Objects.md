@@ -484,7 +484,7 @@ class Square{
     this._sideLength = sideLength;
     this._name = 'square';
     }
-  
+
 }
 ```
 
@@ -501,5 +501,6 @@ First, one of these child classes creates its own method.
 Second, this method in some way overrides a method with the same name that is declared in parent’s class.
 For example, let’s say you have a class `Dog` and `Cat`. Both inherit from the `Animal` class.
 
-The Animal class has `speak()` method. Both child classes `Dog` and `Cat` also has their own implementation of `speak()` method.
+The Animal class has `speak()` method.
+Both child classes `Dog` and `Cat` also has their own implementation of `speak()` method.
 In both cases, this method returns a different result.
