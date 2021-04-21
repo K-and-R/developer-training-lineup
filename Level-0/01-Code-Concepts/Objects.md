@@ -502,5 +502,34 @@ Second, this method in some way overrides a method with the same name that is de
 For example, let’s say you have a class `Dog` and `Cat`. Both inherit from the `Animal` class.
 
 The Animal class has `speak()` method.
-Both child classes `Dog` and `Cat` also has their own implementation of `speak()` method.
-In both cases, this method returns a different result.
+Both child classes `Dog` and `Cat` also has their own implementation of `speak()` method. In both cases, this method returns
+a different result.
+
+### Abstraction
+
+In computer science the word "abstraction" means to get
+rid of the pesky details and then examine a problem
+in its most basic parts. Any problem can be broken
+down into a series of fundamental statements.
+These statements do not require any details or
+reference to a specific problem.
+
+Abstraction can be illistrated using a series of
+statements about a thing.
+Like this:
+
+1. Humans have two eyes.
+2. Many living things have eyes.
+3. Many living things can percieve electromagnetic waves
+
+The problem being solved in this example is how do living
+things percieve their environments visually. An "eye" is a
+organ that detects electromagnetic waves in the
+environment. We can abstract this fact into "Some living
+things have the ability to detect electromagnetic waves."
+
+This idea can also be applied to a concept of "data hiding".
+The idea is the user of an application does not need to know the
+underlying code that executes the task directed by the user.
+In other words, you don't need to know how your car works
+in order to drive it. 
