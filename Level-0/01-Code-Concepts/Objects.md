@@ -532,4 +532,4 @@ This idea can also be applied to a concept of "data hiding".
 The idea is the user of an application does not need to know the
 underlying code that executes the task directed by the user.
 In other words, you don't need to know how your car works
-in order to drive it. 
+in order to drive it.
