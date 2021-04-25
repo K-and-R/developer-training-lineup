@@ -529,7 +529,34 @@ environment. We can abstract this fact into "Some living
 things have the ability to detect electromagnetic waves."
 
 This idea can also be applied to a concept of "data hiding".
-The idea is the user of an application does not need to know the
+The idea is that the user of an application does not need to know the
 underlying code that executes the task directed by the user.
 In other words, you don't need to know how your car works
-in order to drive it.
+in order to drive it. All you need is access to the parts
+that allow you to interact with the car. These would be
+things like the ignition or the gearshifter or the
+steering wheel, etc. The inner workings of the car itself
+is something most of us don't care about.
+
+### Abstract Classses and Interfaces
+
+An `abstract class` is a class that cannot be instantiated
+and contains at least one `abstract method`. Now, what does that
+mean? Think of an `abstract class` as a *very* generalized
+blueprint. It contains the raw materials that will be used
+in sub-classes that are derived from it. But it does not
+specifically define anything. The details are left to the sub-class.
+An `abstract class` would say, "Build a house".
+It does not say what kind of house or where to build the
+house or how many stories the house is supposed to have.
+It just says "Build it!".
+
+From this general order, we can create a sub-class that
+more specifically defines how we are going to build our house.
+There can be several of these, each one concerned with
+some specific aspect of building the house. The `abstract class`
+contains the very basic properties and methods that are then
+inherited by the sub-class. We can add, change, or remove
+properties and methods from the abstract class in our sub-class.
+This allows us to be more specific in defining what the sub-class is intended to do.
+
