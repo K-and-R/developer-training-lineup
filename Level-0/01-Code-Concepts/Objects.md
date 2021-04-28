@@ -559,4 +559,3 @@ contains the very basic properties and methods that are then
 inherited by the sub-class. We can add, change, or remove
 properties and methods from the abstract class in our sub-class.
 This allows us to be more specific in defining what the sub-class is intended to do.
-
