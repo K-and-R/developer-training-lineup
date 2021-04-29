@@ -446,51 +446,40 @@ It looks like this:
 
 ```javascript
 class Shape{
-    constructor()){
+    constructor(){
       this._name = name;
       this._numOfSides = numOfSides;
       this._sideLength = sideLength;
       }
 
-        getName(){
-          console.log(this._name)
-        }
-        getNumOfSides(){
-          console.log(this._numOfSides)
-        }
+    calcArea(height, width){
+      return height * width;
+    }    
 
-        getSideLength(){
-          console.log(this._sideLength)
-        }
-
-        setName(newName){
-          this._name = newName
-        }
-
-        setNumOfSides(numSides){
-          this._numOfSides = numSides
-        }
-
-        setSideLength(side){
-          this._sideLength = side
-        }
-}
-
-class Square{
-
-  constructor(
-    super()){
-    this._numberOfSides = 4;
-    this._sideLength = sideLength;
-    this._name = 'square';
+    calcPerimeter(sides){
+      return sides + sides; 
     }
+}
+
+class Square extends Shape{
+
+  super()    
 
 }
+
+  calcPerimeter(side1, side2, side3, side4){
+    return side1 + side2 + side3 + side4;
+  }
+
+  calcArea(height, width){
+    return height * width;
+  }    
+}  
 ```
 
 ### Polymorphism
 
-Polymorphism is the third of principles of object-oriented programming.
+Polymorphism is the third of principle of object-oriented programming.
 The word “polymorphism” means having “more than one form”.
 You know about the principle of inheritance and how it works.
 Let’s say you have a couple of classes related to each other
@@ -558,4 +547,55 @@ some specific aspect of building the house. The `abstract class`
 contains the very basic properties and methods that are then
 inherited by the sub-class. We can add, change, or remove
 properties and methods from the abstract class in our sub-class.
-This allows us to be more specific in defining what the sub-class is intended to do.
+This also allows us to hide the implementation details as
+base class (abstract class) cannot be directly accessed.
+
+Let's review these four ideas and try to break them down to their essential parts.
+
+* `Encapsulation`
+  
+    - The guts of your class cannot not be accessed directly. You have to use a `getter` method. It is done to keep your code
+    from being altered by another. Someone also cannot change anything you don't want changed. If you do allow someone to
+    change something, they have to use a `setter` function to do it. Otherwise, no one can change anything.
+
+* `Inheritance`
+
+    - Stuff from a super-class can be passed down to a derived class without having to re-write anything. So, if you write a
+    class then you want to have another class that is pretty close, *but not exactly the same* you can use `inheritance`.
+    Using the keyword `extends`, you can create a class based off of the previous class. All of the properties and methods
+    in the super-class are now in the child-class.
+    You do not have to write them again. You can also add any methods you
+    need in your new class that may not be in the super-class.
+    In this way you can save yourself a lot of typing and at the
+    same time customize your class to do exactly what you need.
+
+    - Do not forget that you must call the parents' constructor function like this `super();`. This is required if you want
+    your class to inherit from the super-class.
+
+* `Polymorphism`
+
+    - When you inherit a method from a parent class you can alter it in your child class to better fit what you need it to
+    do. The name of the method is the same as it is in the parent class, but the implementation in the child class is
+    different. So, you can have many different classes
+    that all are changed a bit. Or, you might say,
+    "many forms" of the same thing.
+
+* `Abstraction`
+
+    - Taking something complicated and breaking it down into its basic parts, getting rid of all the details.
+    A cat has whiskers and a tail, and a supple spine, vertical pupils, and pointy ears. If it does not have these things it
+    may or may not be a cat. So, let's take a specific example of a cat, like *your* cat. It has specific details that make
+    it recognizable to you as *your* cat. It might have a particular physical attribute such as a tear in its ear or kink in
+    its tail that is specific to that individual cat.
+    In contrast to that, we can have a broad definition
+    of the actions and properties of any and all cats.
+    That generalization of this thing
+    called a 'cat' is `abstraction`.
+
+    - There is another aspect of `abstraction`. This is the idea that we do not want the end user of our program to have to
+    know *how* the code does what it does. All they need to know is that it does that thing. You do not need to know how a
+    internal combustion engine works in order to operate your car. You only need to know to put your key in the little slot,
+    turn it, and like magic the engine starts. By hiding the details we make the user experience easier and at the same time
+    protect our data. This is sometimes referred to as `data-hiding`. It is similar to the section above in that we are
+    taking something that might be very complicated and breaking ti down in to something easy and simple to use.
+    Again, we have this idea of taking something complex and breaking it down into its fundamental parts. This is also `abstraction`.
