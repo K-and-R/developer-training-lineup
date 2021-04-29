@@ -454,16 +454,16 @@ class Shape{
 
     calcArea(height, width){
       return height * width;
-    }    
+    }
 
     calcPerimeter(sides){
-      return sides + sides; 
+      return sides + sides;
     }
 }
 
 class Square extends Shape{
 
-  super()    
+  super()
 
 }
 
@@ -473,8 +473,8 @@ class Square extends Shape{
 
   calcArea(height, width){
     return height * width;
-  }    
-}  
+  }
+}
 ```
 
 ### Polymorphism
@@ -553,21 +553,28 @@ base class (abstract class) cannot be directly accessed.
 Let's review these four ideas and try to break them down to their essential parts.
 
 * `Encapsulation`
-  
-    - The guts of your class cannot not be accessed directly. You have to use a `getter` method. It is done to keep your code
-    from being altered by another. Someone also cannot change anything you don't want changed. If you do allow someone to
+
+    - The guts of your class cannot not be accessed directly.
+    - You have to use a `getter` method. It is done to keep your code
+    from being altered by another. Someone also cannot
+    change anything you don't want changed. If you do allow someone to
     change something, they have to use a `setter` function to do it. Otherwise, no one can change anything.
 
 * `Inheritance`
 
-    - Stuff from a super-class can be passed down to a derived class without having to re-write anything. So, if you write a
-    class then you want to have another class that is pretty close, *but not exactly the same* you can use `inheritance`.
-    Using the keyword `extends`, you can create a class based off of the previous class. All of the properties and methods
-    in the super-class are now in the child-class.
-    You do not have to write them again. You can also add any methods you
-    need in your new class that may not be in the super-class.
-    In this way you can save yourself a lot of typing and at the
-    same time customize your class to do exactly what you need.
+    - Stuff from a super-class can be passed down to a
+    derived class without having to re-write anything.
+    So, if you write a class then you want to have another
+    class that is pretty close, *but not exactly the same*
+    you can use `inheritance`.
+    Using the keyword `extends`, you can create a class
+    based off of the previous class. All of the properties
+    and methods in the super-class are now in the child-class.
+    You do not have to write them again. You can also add any
+    methods you need in your new class that may not be in
+    the super-class. In this way you can save yourself a
+    lot of typing and at the same time customize your class
+    to do exactly what you need.
 
     - Do not forget that you must call the parents' constructor function like this `super();`. This is required if you want
     your class to inherit from the super-class.
@@ -583,17 +590,21 @@ Let's review these four ideas and try to break them down to their essential part
 * `Abstraction`
 
     - Taking something complicated and breaking it down into its basic parts, getting rid of all the details.
-    A cat has whiskers and a tail, and a supple spine, vertical pupils, and pointy ears. If it does not have these things it
-    may or may not be a cat. So, let's take a specific example of a cat, like *your* cat. It has specific details that make
-    it recognizable to you as *your* cat. It might have a particular physical attribute such as a tear in its ear or kink in
-    its tail that is specific to that individual cat.
-    In contrast to that, we can have a broad definition
-    of the actions and properties of any and all cats.
-    That generalization of this thing
+    A cat has whiskers and a tail, and a supple spine,
+    vertical pupils, and pointy ears. If it does not have
+    these things it may or may not be a cat.
+    So, let's take a specific example of a cat, like
+    *your* cat. It has specific details that make
+    it recognizable to you as *your* cat.
+    It might have a particular physical attribute such as
+    a tear in its ear or kink in its tail that is specific to that individual cat. In contrast to that, we can have a
+    broad definition of the actions and properties of any
+    and all cats. That generalization of this thing
     called a 'cat' is `abstraction`.
 
-    - There is another aspect of `abstraction`. This is the idea that we do not want the end user of our program to have to
-    know *how* the code does what it does. All they need to know is that it does that thing. You do not need to know how a
+    - There is another aspect of `abstraction`.
+    This is the idea that we do not want the end user of our program to have to know *how* the code does what it does.
+    All they need to know is that it does that thing. You do not need to know how a
     internal combustion engine works in order to operate your car. You only need to know to put your key in the little slot,
     turn it, and like magic the engine starts. By hiding the details we make the user experience easier and at the same time
     protect our data. This is sometimes referred to as `data-hiding`. It is similar to the section above in that we are
