@@ -608,5 +608,70 @@ Let's review these four ideas and try to break them down to their essential part
     internal combustion engine works in order to operate your car. You only need to know to put your key in the little slot,
     turn it, and like magic the engine starts. By hiding the details we make the user experience easier and at the same time
     protect our data. This is sometimes referred to as `data-hiding`. It is similar to the section above in that we are
-    taking something that might be very complicated and breaking ti down in to something easy and simple to use.
+    taking something that might be very complicated and breaking it down in to something easy and simple to use.
     Again, we have this idea of taking something complex and breaking it down into its fundamental parts. This is also `abstraction`.
+
+### Practical Uses of OOP
+
+There are countless ways to use OOP in designing and implementing software. There are even defined "design patterns" to help
+solve specific types of coding problems.
+These are beyond the current scope of this section. For now, the simplest way to think about OOP could be summed up as
+"Bigger, broader first, then more and more details as you go down." But be warned, that is only the most general of
+guidelines. The implementation of OOP really depends on the specifics of the problem you are trying to solve. Often, you
+will experience a trial and error phase of your project.
+A lot of developers operate on the basis of "get the code
+on the page and make it work. Then refine it as needed."
+This is a good place to start.
+
+Another point to consider is the use of functional programming. In theory, anything that can be build using OOP can also be
+built using only a series of functions. The only difference between functional programming and OOP is organization. In OOP,
+functions (called `methods` when contained in an object) are grouped together in a structure called an `object`. However, a
+function that does not live inside of an object still works
+as a function. And there was a time when there was no such thing as an `object`. What should be taken from this is that
+understanding how data is stored (`variables`) and how that data is then manipulated (`function`) comes before how either of
+these things are organized. OOP is covered here because it is very prevalent in software development. It has some advantages,
+but is not the be all and end all of writing code.
+
+```javascript
+//Define variables here
+let name = 'Joe';
+let age = 34;
+let job = 'Janitor';
+
+//Define function here
+let description = function(name, age, job){
+    console.log(`My name is ${name}. I am ${age} years old.
+    I work as a ${job}.`);
+    };
+    
+//Invoke function here 
+description(name, age, job);
+    
+//Define a class here    
+class Person{
+    constructor(name, age, job){
+        this._name = name;
+        this._age = age;
+        this._job = job;
+        }
+    
+    description(){
+        console.log(`My name is ${this._name}. 
+        I am ${this._age} years old. I work 
+        as a ${this._job}`);
+        }
+}
+//End class definition here
+
+//Instantiate new Object
+let joe = new Person('Joe', 34, 'Janitor');
+
+
+//Invoke method 
+joe.description();
+```
+
+Above is an example of handling a task first with only variables and functions, then by using OOP principles. The output for
+both the functional approach and the OOP approach is identical. This example is written there so that you can compare the two
+different versions. It is understood that the task itself
+is sort of dumb. It's just an example to keep things simple.
