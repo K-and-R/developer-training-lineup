@@ -623,14 +623,18 @@ A lot of developers operate on the basis of "get the code
 on the page and make it work. Then refine it as needed."
 This is a good place to start.
 
-Another point to consider is the use of functional programming. In theory, anything that can be build using OOP can also be
-built using only a series of functions. The only difference between functional programming and OOP is organization. In OOP,
-functions (called `methods` when contained in an object) are grouped together in a structure called an `object`. However, a
-function that does not live inside of an object still works
-as a function. And there was a time when there was no such thing as an `object`. What should be taken from this is that
-understanding how data is stored (`variables`) and how that data is then manipulated (`function`) comes before how either of
-these things are organized. OOP is covered here because it is very prevalent in software development. It has some advantages,
-but is not the be all and end all of writing code.
+Another point to consider is the use of functional programming.
+In theory, anything that can be build using OOP can also be
+built using only a series of functions.
+The only difference between functional programming and OOP is organization. In OOP,functions (called `methods` when
+contained in an object) are grouped together in a structure called an `object`. However, a function that does not live
+inside of an object still works
+as a function. And there was a time when there
+was no such thing as an `object`. What should be
+taken from this is that understanding how data is stored (`variables`) and how that data is then
+manipulated (`function`) comes before how either of these things are organized. OOP is covered here because it is
+very prevalent in software development.
+It has some advantages, but is not the be all and end all of writing code.
 
 ```javascript
 //Define variables here
@@ -643,35 +647,38 @@ let description = function(name, age, job){
     console.log(`My name is ${name}. I am ${age} years old.
     I work as a ${job}.`);
     };
-    
-//Invoke function here 
+
+//Invoke function here
 description(name, age, job);
-    
-//Define a class here    
+
+//Define a class here
 class Person{
     constructor(name, age, job){
         this._name = name;
         this._age = age;
         this._job = job;
         }
-    
+
     description(){
-        console.log(`My name is ${this._name}. 
-        I am ${this._age} years old. I work 
+        console.log(`My name is ${this._name} I am ${this._age} years old. I work
         as a ${this._job}`);
         }
-}
-//End class definition here
+};
 
-//Instantiate new Object
+//Instantiate Object
+
 let joe = new Person('Joe', 34, 'Janitor');
 
 
-//Invoke method 
+//Invoke method
 joe.description();
 ```
 
-Above is an example of handling a task first with only variables and functions, then by using OOP principles. The output for
-both the functional approach and the OOP approach is identical. This example is written there so that you can compare the two
+Above is an example of handling a task first
+with only variables and functions, then by
+using OOP principles. The output for
+both the functional approach and the OOP
+approach is identical. This example is
+written there so that you can compare the two
 different versions. It is understood that the task itself
 is sort of dumb. It's just an example to keep things simple.
