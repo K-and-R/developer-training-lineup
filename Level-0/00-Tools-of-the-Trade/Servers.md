@@ -43,3 +43,6 @@ Several server software applications can be run from a single machine.
 The downside of virtual machines is that they do use
 CPU and memory resources from your actual machine. As a result of this, you may experience some slow down of your
 computer when running one or more virtual machines.
+
+## Client-Server Overview
+
