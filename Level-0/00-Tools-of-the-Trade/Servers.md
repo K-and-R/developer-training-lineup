@@ -47,8 +47,9 @@ computer when running one or more virtual machines.
 ## Client-Server Overview
 
 what is the internet? Just to keep it really simple, it is a network of computers that are all connected together.
-Each computer on the network has the ability to send an receive information to each other. There is a lot going on behnd the
-scenes to make that happen, but at the end of the day that is what the internet is.  
+Each computer on the network has the ability to send
+an receive information to each other. There is a lot going on behind the scenes to make that happen, but at the
+end of the day that is what the internet is.
 
 What does "connected" mean?  Right, what does connected really mean? Well, there are two ways to connect a computer.
 The first way is by using a physical cable to connect to each computer. Usually, the cable is ethernet. It is similar to
@@ -70,33 +71,35 @@ There is sooooo much bullshit tossed around about this subject. I have seen guys
 And worse than that,every second is coma-indicuing boredom.
 So, no lectures, or verbose descriptions, and I won't even discuss the deep philosophical ramifications of world-wide
 connectivity. Nope. I am going to just tell you what
-it is and what it does and why you care.  
+it is and what it does and why you care.
 
-Front-End
+## Front-End
 
 The front-end is the end used by the user. When you check your bank balance on your phone, you are using the front-end.
 When you are binge watching YouTube, you are using the front-end. Any user interaction with the webpage is front end.
 The front-end can be broken down into three separate parts.
 These are HTML, CSS, and JavaScript. Let's briefly look at each.
 
-HTML
+### HTML
 
-This is not really a programming language. It is more of a set of instructions to tell the browser how to display
-information. It does have some features that make it seem like it is a programming language and it does use some "logic" to
-help you lay out your page, but it isn't really a language for telling the computer what to do. We have a section on HTML.
-It is mentioned here in a simplified context as it relates to the over-all front-end. Think of HTML as giving the page its
+This is not really a programming language.
+It is more of a set of instructions to tell the browser how to display information. It does have some features that make
+it seem like it is a programming language and it does use some "logic" to help you lay out your page,but it isn't
+really a language for telling the computer what to do. We have a section on HTML. It is mentioned here in a simplified
+context as it relates to the over-all front-end.
+Think of HTML as giving the page its
 structure. It will put things where you tell it to put them.
 
 ```html
 <!-- The div is a block designated as a separate portion of the page -->
-<div> 
+<div>
   <p> This is a paragraph block that lives inside the div.</p>
 <!-- This paragraph element is a separate block that lives inside the div block -->
-</div>  
+</div>
 
 ```
 
-CSS
+### CSS
 
 This is code used to make the data on your page pretty. It handles fonts, and colors, and positions on the page of your data.
 HTML puts the blocks of data on the page. That's about it. CSS lets you more precisely craft how you want that data to look.
@@ -120,11 +123,11 @@ In the example above the CSS directs that the element id `section` should be 100
 background color of the element should be red, and the
 font color should be green.That's all styling of the page. CSS can do other things, but basically this is what it does.
 
-JavaScript
+### JavaScript
 
-JavaScript is a coding language. It allows the user to interact with the webpage. When the user pushes a button or clicks on
-a link or logs into their account JavaScript handles the logic to make that happen. Way back when, there was no JavaScript.
-Webpages could not be interacted with. There were no buttons to click and no log ins,and no comments section. There was only
-a page of information.
+JavaScript is a coding language. It allows the user
+to interact with the webpage. When the user pushes a button or clicks on a link or logs into their account JavaScript handles
+the logic to make that happen. Way back when, there was no JavaScript.Webpages could not be interacted with.
+There were no buttons to click and no log ins,and no comments section. There was only a page of information.
 ou could request to look at the page, but you couldn't really interact with the page in any significant way.
 JavaScript was invented for the purpose of allowing users to interact with a webpage.
