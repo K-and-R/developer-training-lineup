@@ -129,5 +129,37 @@ JavaScript is a coding language. It allows the user
 to interact with the webpage. When the user pushes a button or clicks on a link or logs into their account JavaScript handles
 the logic to make that happen. Way back when, there was no JavaScript.Webpages could not be interacted with.
 There were no buttons to click and no log ins,and no comments section. There was only a page of information.
-ou could request to look at the page, but you couldn't really interact with the page in any significant way.
+You could request to look at the page, but you couldn't really interact with the page in any significant way.
 JavaScript was invented for the purpose of allowing users to interact with a webpage.
+
+```javascript
+var pageElement= document.getElementById('page');
+
+pageElement.addEventListener('click', () => {
+  pageElement.style.color = green; 
+});
+```
+
+In the above example we have captured an element of the webpage. We then assign an event listener to it.
+Done correctly, when the element is clicked any text
+in the element will turn green. Granted, that's not
+super useful or even particualrly intelligent.
+But it is a example of allowing the user to interact
+with the web page.
+
+Ok, that's the front end. There is quite a lot you can do
+with the front end. So much, in fact, that you could have
+a long, successful career just working with the front end. But wait! There's more!
+
+## Back End
+
+The whole point of the internet is to be able to send and receive data from multiple computers all over the world.
+Browsers were made for the purpose of requesting data and displaying that data to the user. The back end is the code
+that makes that happen. You could think of the front end as the control panel of a vehicle. The operator of the vehicle can
+give "commands" to the vehicle by turning a wheel or pushing a pedal. But what happens after that? There is a whole network
+of linkages that go to work to execute the command input from the user. This could be thought of as the back end.
+
+While it is possible to code the back end using JavaScript,
+it is usually done in a different coding language.
+PHP, Ruby, or Python are examples languages that are
+commonly used for back end coding.
