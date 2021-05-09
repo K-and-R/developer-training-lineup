@@ -136,7 +136,7 @@ JavaScript was invented for the purpose of allowing users to interact with a web
 var pageElement= document.getElementById('page');
 
 pageElement.addEventListener('click', () => {
-  pageElement.style.color = green; 
+  pageElement.style.color = green;
 });
 ```
 
