@@ -163,3 +163,38 @@ While it is possible to code the back end using JavaScript,
 it is usually done in a different coding language.
 PHP, Ruby, or Python are examples languages that are
 commonly used for back end coding.
+
+### Parts of the Back End
+
+The first part of the back end is the `server`. What is a server? It is a computer that is optimized to "listen" for requests
+from clients. Your computer could be used as a server. The difference is, you have all kinds of different apps,
+pictures, music, personal files, etc. The server does not have these things. It only has the application you are contacting.
+They arw called `servers` because they serve client (user) requests. It should be taken into consideration that it is not
+only users that are clients of servers. *Any* request from anything is considered a `client`. Sometimes other
+can make requests of servers. Whatever, or whoever, is making the request is the `client`. Anything that responds to requests
+is a `server`. Sometimes the server is not necessarily a physical machine. It's not important to distinguish between each of
+the various types of servers right now. The main point here is `clients` make requests. `Servers` respond to requests.
+
+The next part of the back-end is the application itself. This is the actual computer program that is running on the server.
+It listens for client requests, retrieves information from a database, and sends a response back to the client.
+
+Lastly, there is the database. A data base is a structured set of data held in a computer. It is a big storage facility that
+lives on a computer somewhere. It stores information in an organized system. Anything that you want your app to
+"remember" would be stored on a database. The database is a separate thing from the server. It might live on the server,
+but it exists as its own entity.
+
+Understanding the relationships between the server, application, and database is important. Understanding what these things
+are and how they relate to each other helps a lot when you start digging deeper into them. The server contains the
+application. The database may, or may not, live on the server.
+The app listens for requests. When a request is received, the app will likely make a request to the database for data.
+Then the database returns the data to the app. The app takes that data and prepares it to send. It will then send the data
+back to the client who made the request (This is not the user, but rather the users' browser ).
+The browser takes the data it has received and displays it to the user.
+
+This is ony intended to give a very broad overview of how the system works. Wherever it has been mentioned that a
+component *does* this or that it must be remembered that a developer had to write the code to enable that to happen.
+So when I say, *"...and then the thingamabob does this"* it means a human wrote instructions for the computer to carry out
+that task. None of this is automatic. There is code for sending a request. There is code to ask the database for data.
+There is code to formulate and send the data back. Computers can't do anything on their own.
+It requires a human to tell the computer what to do.
+
