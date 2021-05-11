@@ -172,8 +172,9 @@ pictures, music, personal files, etc. The server does not have these things. It 
 They arw called `servers` because they serve client (user) requests. It should be taken into consideration that it is not
 only users that are clients of servers. *Any* request from anything is considered a `client`. Sometimes other
 can make requests of servers. Whatever, or whoever, is making the request is the `client`. Anything that responds to requests
-is a `server`. Sometimes the server is not necessarily a physical machine. It's not important to distinguish between each of
-the various types of servers right now. The main point here is `clients` make requests. `Servers` respond to requests.
+is a `server`. Sometimes the server is not necessarily
+a physical machine. It's not important to distinguish between each of the various types of servers right now. The main point
+here is `clients` make requests. `Servers` respond to requests.
 
 The next part of the back-end is the application itself. This is the actual computer program that is running on the server.
 It listens for client requests, retrieves information from a database, and sends a response back to the client.
