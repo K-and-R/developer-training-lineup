@@ -237,8 +237,10 @@ Whatever language is used it is important to remember that we are no longer deal
 itself, not an application running on the computer
 like a browser. The language used is not really all that important. They all basically do the same thing. They provide a
 means to give the server instructions about what it
-must do with the request it has received. This is just as if a crew member on our hypothetical spaceship pushed a button to
-increase the speed. The command input (maybe a button or something) is sent to the engines. In order to increase the speed
+must do with the request it has received.
+This is just as if a crew member on our hypothetical spaceship pushed a button to increase the speed. The command input
+(maybe a button or something) is sent to the engines.
+In order to increase the speed
 of the engine, more fuel must be pumped into them. The action pumping the fuel, as well as knowing how much fuel to pump
 is handled by the "back end" so to speak. In the case of our particular ship, when the command is executed a signal is
 sent back to the control panel confirming it was done.
@@ -247,7 +249,8 @@ It is the same with our application. A request is sent via the control panel (we
 instructions stored on the server. The request is
 fulfilled, and a response is sent bask to the webpage.
 
-Now you know how the whole thing is supposed to work. If you work on the control panel, you are working on the front end. If
-you are concerned with what the server is supposed to do,
-you are working on the back end. The only thing we
- out was the database. We will get to that in a second.
+Now you know how the whole thing is supposed to work.
+If you work on the control panel, you are working on
+the front end. If you are concerned with what the server is supposed to do,you are working on the back end.
+The only thing we out was the database.
+We will get to that in a second.
