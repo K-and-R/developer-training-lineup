@@ -199,3 +199,55 @@ that task. None of this is automatic. There is code for sending a request. There
 There is code to formulate and send the data back. Computers can't do anything on their own.
 It requires a human to tell the computer what to do.
 
+### An Analogy
+
+All of this front/back end stuff can get confusing really fast. What goes where? How do I write that so it does what I want?
+How do I even know what it is I want it to do?
+
+It can be helpful to have something to compare to the thing you are having trouble with.
+Analogies are good for this type of thing.
+
+Think of the whole system of HTML, CSS, JavaScript, and Ruby as a single entity, like a, oh, I don't know, like a spaceship.
+A spaceship has a variety of different systems that all do different things. You have engines and life support and
+navigation and maybe even weapons, etc.
+Each of these systems exist in their own right, but at the same time, must be integrated to some degree.
+And all of these systems must be controlled, preferrably from a central location if possible. A computer application
+shares many of these same attributes.
+Let's compare some of them.
+
+#### The Control Panel
+
+You could think of the front end of an application as the control panel of the ship. The control panel allows us to give
+commands, but it also supplies us with data we need to
+operate the ship. It is the interface between the crew
+member and the vessel itself. The front end of our application does very much the same thing. The user can "flip switches"
+and "push buttons" and the page responds. Data can be sent, received and displayed on our control panel.
+
+When a button is pushed on the control panel, a block of code is executed. This code is JavaScript. The request or command
+that is sent from our control panel button then goes to the
+system we want to control or get data from.
+
+Once that request or command is sent another thing takes over. At this point in the process, the action of getting the data
+or executing the command must be done.
+This action, out of the view of the user, is performed by another language. Could be PHP, Python, Ruby,
+or even C++.
+
+Whatever language is used it is important to remember that we are no longer dealing with the control panel
+(Our HTML page). We are now dealing with the computer
+itself, not an application running on the computer
+like a browser. The language used is not really all that important. They all basically do the same thing. They provide a
+means to give the server instructions about what it
+must do with the request it has received. This is just as if a crew member on our hypothetical spaceship pushed a button to
+increase the speed. The command input (maybe a button or something) is sent to the engines. In order to increase the speed
+of the engine, more fuel must be pumped into them. The action pumping the fuel, as well as knowing how much fuel to pump
+is handled by the "back end" so to speak. In the case of our particular ship, when the command is executed a signal is
+sent back to the control panel confirming it was done.
+
+It is the same with our application. A request is sent via the control panel (webpage). It is handed off to the
+instructions stored on the server. The request is
+fulfilled, and a response is sent bask to the webpage.
+
+Now you know how the whole thing is supposed to work. If you work on the control panel, you are working on the front end. If
+you are concerned with what the server is supposed to do,
+you are working on the back end. The only thing we
+ out was the database. We will get to that in a second.
