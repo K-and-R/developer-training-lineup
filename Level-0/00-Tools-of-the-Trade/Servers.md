@@ -259,9 +259,12 @@ We will get to that in a second.
 
 A database is an organized collection of information stored in a computer system. A database is usually accessed using a
 database management system (DBMS). Let's translate that.
-A database is a giant bucket. It contains sets of smaller buckets that hold data. The buckets are organized in a logical way.
-If you want to get, add, change, or otherwise mainpulate the data in a database you have to use a tool called a
-`database management system`. Because of the computer worlds' love of acronyms, you will often see a database management
+A database is a giant bucket. It contains sets of
+smaller buckets that hold data. The buckets are organized in a logical way. If you want to get, add, change, or
+otherwise mainpulate the data in a database you have to use a
+tool called a `database management system`.
+Because of the computer worlds' love of acronyms,
+you will often see a database management
 system referred to like this, `DBMS`.
 
 Why use a database? If there is data that you want to hold on to and access later, a database is the way to go.
