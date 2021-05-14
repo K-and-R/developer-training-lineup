@@ -254,3 +254,36 @@ If you work on the control panel, you are working on
 the front end. If you are concerned with what the server is supposed to do,you are working on the back end.
 The only thing we out was the database.
 We will get to that in a second.
+
+## Databases
+
+A database is an organized collection of information stored in a computer system. A database is usually accessed using a
+database management system (DBMS). Let's translate that.
+A database is a giant bucket. It contains sets of smaller buckets that hold data. The buckets are organized in a logical way.
+If you want to get, add, change, or otherwise mainpulate the data in a database you have to use a tool called a
+`database management system`. Because of the computer worlds' love of acronyms, you will often see a database management
+system referred to like this, `DBMS`.
+
+Why use a database? If there is data that you want to hold on to and access later, a database is the way to go.
+Things like passwords, account information, names, birthday, anything that you want to keep for a long time  all
+things stored in a database.
+
+A database organizes the data stored in it in a logical way. This allows for the best efficiency when storing or retrieving
+the data from it. The database is organized into `tables`. Each `table` has columns and rows. You could think of it as a
+sheet of graph paper. The rows (the lines going from left to right) are called `records`. The individual cells that hold
+data are called `fields`.
+
+Below is a very basic example of what a table looks like.
+The whole thing is the `table`. An individual cell is a `field`. A row of `fields` is a `record`. A stack of `fields` one
+atop the next is a `column`.
+
+![Table Example](../../images/Screenshot%20from%202021-05-14%2012-22-04.png)
+
+A database will usually have many tables stored in it. These different tables are related to each other.
+For example, you might have a table that holds customer data. That might include a name, an address, an account number, etc.
+There can be (and often are) several different tables all holding data. These tables contain data that are related to each
+other. By accessing these different tables all kinds of different reports, analysis, and other combinations of the data
+can be formed. This type of database that uses tables is called a `relational database`. This is the most common type of
+database. There are several other ways to organize data in a database. These are all referred to as
+`non-relational databases`.
+
