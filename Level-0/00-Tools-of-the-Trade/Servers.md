@@ -290,3 +290,26 @@ can be formed. This type of database that uses tables is called a `relational da
 database. There are several other ways to organize data in a database. These are all referred to as
 `non-relational databases`.
 
+### REST
+
+REST is an acronym that means `representaional state transfer`. It is a method by which applications can use web services.
+When a client wants to see an image or update a profile, REST is the scaffolding that connects the client with the resource.
+It is a set of rules for communication between clients and
+servers.
+
+### HTTP
+
+HTTP stands for `Hypertext Transfer Protocol`. A `protocol` is `"a set of rules governing the exchange or transmission of
+data between devices"`. REST is the channel for communication. HTTP is the communication of what the client wants to get or
+wants to place on a server. The request uses the HTTP rules for making requests. REST governs how those requests are handled
+and returned to the client. REST is not the only type of architecture used for handling requests, but it is the most common.
+
+Why do we care about this? Webpages are designed to be interactive. "Interactive" means that clients can request information
+from the website. They can also store information on the website (actually, it is stored on a database associated with the
+website.). In the past, only textual information could be requested and returned. But that was quite a long time ago. Today,
+anything that can be stored on a server can be requested and returned or sent to be stored. That includes applications,
+images, videos, whatever. Collectively, anything that can be stored on a server is referred to as a `resource`. You will
+often hear the term `web resource`. It just means a thing stored on a server that can be accessed. We care about this because
+we want our website to have the ability to send information and to receive information. This is what makes them useful.
+Without this ability, a website is really just an electronic bulletin board. If we want our website to do anything
+more than display data, we need to make it interactive.
