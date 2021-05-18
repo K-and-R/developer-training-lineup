@@ -300,7 +300,8 @@ servers.
 ### HTTP
 
 HTTP stands for `Hypertext Transfer Protocol`. A `protocol` is `"a set of rules governing the exchange or transmission of
-data between devices"`. REST is the channel for communication. HTTP is the communication of what the client wants to get or
+data between devices"`. REST is the channel for communication.
+HTTP is the communication of what the client wants to get or
 wants to place on a server. The request uses the HTTP rules for making requests. REST governs how those requests are handled
 and returned to the client. REST is not the only type of architecture used for handling requests, but it is the most common.
 
