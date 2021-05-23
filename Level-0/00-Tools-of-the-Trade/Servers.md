@@ -305,6 +305,113 @@ HTTP is the communication of what the client wants to get or
 wants to place on a server. The request uses the HTTP rules for making requests. REST governs how those requests are handled
 and returned to the client. REST is not the only type of architecture used for handling requests, but it is the most common.
 
+### SQL
+
+The database is a thing in itself. It is just a storage structure. So, how do we manipulate the data in the database?
+We use `Structured Query Language` or `SQL`.
+This is a language that is part of the `RDBMS`
+or `Relational Data Base Management System`.
+Just to avoid any confusion, there are three parts here.
+There is the database entity itself, there is the RDBMS,
+and there is SQL. SQL is a *part* of the RDMS. It helps to have a lay of the land with this stuff. You will use SQL.
+It is part of the RDBMS used to manipulate data stored in
+the database. That is the relationship between these different things. This section will focus on basic SQL.
+
+### Clauses
+
+A `clause` is text that the database recognizes as something it needs to do. `Clauses` ALWAYS end with a `;`. Pay very
+close attention to the semi-colon at the end of clauses.
+If you forget, trouble ensues. I say this from painful experience. Here is what a clause looks like:
+
+```sql
+SELECT * FROM my_database
+```
+
+SQL clauses are always capitalized. This clause says, *"Select everything from the database called "my_database"*.
+The "everything" part is designated by the `*`.
+The asterisk is referred to as a "wild-card".
+It means "everything" or "give me whatever you got".
+
+All data in a database has a `data type`. A `data type` is a certain kind of data. Some types are words, or `strings`.
+Some are numbers, or `integers` etc. There are many data types. Here are some of the more common ones:
+
+* `INTEGER`
+
+    - Any positive or negative whole number.
+
+* `TEXT`
+  
+    - A text string  
+
+* `DATE`
+
+    - The data formatted as YYYY-MM-DD
+
+* `REAL`
+
+    - A decimal value
+
+Statements can have `parameters`. This is similar to function parameters. It looks like this:
+
+```sql
+CREATE TABLE table_name (
+  column_1 data_type,
+  column_2 data_type,
+  column_3 data_type
+);
+```
+
+This clause includes a list of parameters. Parameters are a list of columns, data types, or values that are passed to a
+clause like arguments to a function.  
+
+If we want to create a new table, we use the clause `CREATE TABLE`. This clause tells the database that we want to make a new
+table rom the beginning. Remember, our new table has no data in it yet. It is just an empty table. We need to give this new
+table a name and we need to tell the database what the
+columns are going to be. It looks like this:
+
+```sql
+
+CREATE TABLE persons ( idnum INTEGER,
+                       moniker TEXT,
+                       age INTEGER
+                    );
+
+```
+
+In the above example, we see the parameters give the column headings (id, name, and age). We then specify what *type* of
+data the column will hold (INTEGER, TEXT, and INTEGER).
+
+We now have our table created. But is has no data in it. We will use the INSERT statement to accomplish this. The clause we
+will use is pretty straight-forward. It looks like this:
+
+```sql
+
+INSERT INTO persons (idnum, moniker, age);
+```
+
+Now, we must provide the values that we want stored in the new record. Looks like this:
+
+```sql
+INSERT INTO persons (idnum, moniker, age)
+VALUES (1, 'Bill Smith', 22);
+
+```
+
+Now that we have some data in our table, we can access that data using the `SELECT` statement. Looks like this:
+
+```sql
+SELECT moniker FROM persons;
+```
+
+This will give all of the data from the 'moniker' column. If we wanted *all* of the data in the table we would use the
+'wildcard' character like this:
+
+```sql
+SELECT * FROM persons;
+```
+
+SECTION INCOMPLETE
+
 Why do we care about this? Webpages are designed to be interactive. "Interactive" means that clients can request information
 from the website. They can also store information on the website (actually, it is stored on a database associated with the
 website.). In the past, only textual information could be requested and returned. But that was quite a long time ago. Today,
