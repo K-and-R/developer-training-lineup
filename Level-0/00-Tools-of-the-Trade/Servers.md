@@ -340,8 +340,8 @@ Some are numbers, or `integers` etc. There are many data types. Here are some of
     - Any positive or negative whole number.
 
 * `TEXT`
-  
-    - A text string  
+
+    - A text string
 
 * `DATE`
 
@@ -362,18 +362,22 @@ CREATE TABLE table_name (
 ```
 
 This clause includes a list of parameters. Parameters are a list of columns, data types, or values that are passed to a
-clause like arguments to a function.  
+clause like arguments to a function.
 
-If we want to create a new table, we use the clause `CREATE TABLE`. This clause tells the database that we want to make a new
-table rom the beginning. Remember, our new table has no data in it yet. It is just an empty table. We need to give this new
-table a name and we need to tell the database what the
-columns are going to be. It looks like this:
+If we want to create a new table, we use the clause
+`CREATE TABLE`.
+This clause tells the database that we want to make a new
+table rom the beginning. Remember, our new table has
+no data in it yet. It is just an empty table. We need
+to give this new table a name and we need to tell
+the database what the columns are going to be.
+It looks like this:
 
 ```sql
 
-CREATE TABLE persons ( idnum INTEGER,
-                       moniker TEXT,
-                       age INTEGER
+CREATE TABLE persons (  idnum INTEGER,
+                        moniker TEXT,
+                        age INTEGER
                     );
 
 ```
@@ -381,8 +385,10 @@ CREATE TABLE persons ( idnum INTEGER,
 In the above example, we see the parameters give the column headings (id, name, and age). We then specify what *type* of
 data the column will hold (INTEGER, TEXT, and INTEGER).
 
-We now have our table created. But is has no data in it. We will use the INSERT statement to accomplish this. The clause we
-will use is pretty straight-forward. It looks like this:
+We now have our table created. But is has no data in it.
+We will use the INSERT statement to accomplish this.
+The clause we will use is pretty straight-forward.
+It looks like this:
 
 ```sql
 
