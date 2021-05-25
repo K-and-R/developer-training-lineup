@@ -306,9 +306,12 @@ The waiter then goes and gets what the diner ordered. The waiter either returns 
 the diner why he could not bring the order.
 The diner is the `client`. The `server` is the waiter.
 
-So, what does this request actually look like? Well, you have likely seen a request and never knew what it was. Whenever you
-see `http://somewhere.com/media/cat.jpeg` you are looking at a request. This is just an example, but it is valid syntax for
-making a request. There is more to this. Let's break it down.
+So, what does this request actually look like?
+Well, you have likely seen a request and never knew what it was. Whenever you see `http://somewhere.com/media/cat.jpeg`
+you are looking at a request.
+This is just an example, but it is valid syntax for
+making a request. There is more to this.
+Let's break it down.
 
 * `http://`
 
@@ -319,7 +322,9 @@ making a request. There is more to this. Let's break it down.
 * `Domain Name`
 
     - This is the authority that governs the namespace. When you see something like `myWebSite.com` you are looking at
-    the domian name. There are things (resources) that live in that domain (namespace). A `resource` is anything that can be
+    the domian name. There are things (resources) that
+    live in that domain (namespace).
+    A `resource` is anything that can be
     accessed. It can be anything, a file, a picture, an application, whatever.
 
 * `:80`
@@ -357,7 +362,6 @@ might use a `POST` request method. Let's take a look at them:
 
 * `PUT`
 
-    - 
 ### SQL
 
 The database is a thing in itself. It is just a storage structure. So, how do we manipulate the data in the database?
