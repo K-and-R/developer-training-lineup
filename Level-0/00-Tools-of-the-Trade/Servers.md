@@ -290,21 +290,74 @@ can be formed. This type of database that uses tables is called a `relational da
 database. There are several other ways to organize data in a database. These are all referred to as
 `non-relational databases`.
 
-### REST
-
-REST is an acronym that means `representaional state transfer`. It is a method by which applications can use web services.
-When a client wants to see an image or update a profile, REST is the scaffolding that connects the client with the resource.
-It is a set of rules for communication between clients and
-servers.
-
 ### HTTP
 
-HTTP stands for `Hypertext Transfer Protocol`. A `protocol` is `"a set of rules governing the exchange or transmission of
-data between devices"`. REST is the channel for communication.
-HTTP is the communication of what the client wants to get or
-wants to place on a server. The request uses the HTTP rules for making requests. REST governs how those requests are handled
-and returned to the client. REST is not the only type of architecture used for handling requests, but it is the most common.
+HTTP stands for `Hypertext Transfer Protocol`. A `protocol` is a set of rules governing the exchange or transmission of
+data between devices. HTTP is a set of rules that govern the way clients and servers communicate to each other.
+A `client` is something that makes `requests`.
+A `server` is a thing that receives requests and
+delivers responses to those requests. A client can be a person, or it can be another device (like a browser). A server can
+be a computer that is optimized to send and receive data, or it can be an application that does the same thing.
+Because there are so many  different things that can act as a client or a server, it's easier to understand using the above,
+very basic, ideas. Servers take requests and give return responses. Clients make requests and receive answers to those
+requests. A very common analogy is the diner/waiter analogy. A diner sits down at a table in a restaurant. The waiter comes
+to the table and waits for the diner to give him his order.
+The waiter then goes and gets what the diner ordered. The waiter either returns with what was ordered or he returns to tell
+the diner why he could not bring the order.
+The diner is the `client`. The `server` is the waiter.
 
+So, what does this request actually look like? Well, you have likely seen a request and never knew what it was. Whenever you
+see `http://somewhere.com/media/cat.jpeg` you are looking at a request. This is just an example, but it is valid syntax for
+making a request. There is more to this. Let's break it down.
+
+* `http://`
+
+    - This part specifies which set of rules you want to use for this request. Usually, this rule set (or protocol) is
+    HyperText Transfer Protocol. However, there are other rule sets for different types of resources. HTTP or its secured
+    version, HTTPS, are the most common.
+
+* `Domain Name`
+
+    - This is the authority that governs the namespace. When you see something like `myWebSite.com` you are looking at
+    the domian name. There are things (resources) that live in that domain (namespace). A `resource` is anything that can be
+    accessed. It can be anything, a file, a picture, an application, whatever.
+
+* `:80`
+    - This is the port number. It is the "gateway" into the server. This is optional. If you don't specify it, it defaults
+    to 80 for http and port 443 for https. However, if there is a different port number than the two above, it must be
+    specified in the request.
+
+* `path/to/file.html`
+
+    - This is the file path to the resource. In the past, this was an actual file path to a file on a physical machine.
+    Today, it is really just an abstraction, but it does the same thing.
+
+* `Parameters`
+
+    - These are key/value pairs that do extra stuff before returning the resource to the client. There are several of these.
+
+### HTTP Request Methods
+
+Request methods indicate what you want to do with a resource. If you just wanted to see a web page you might use a `GET`
+request method. If you were saving data to a database you
+might use a `POST` request method. Let's take a look at them:
+
+* `GET`
+
+    - The GET method requests a copy of the resource. GET requests should only retrieve (GET) data.
+
+* `HEAD`
+
+    - This is the same as the GET request, except without the response body
+
+* `POST`
+
+    - This is used to send something to the resource. If you were to log-in to an account, your log-in data would be *posted*
+    to the resource (website, for example) on the server.
+
+* `PUT`
+
+    - 
 ### SQL
 
 The database is a thing in itself. It is just a storage structure. So, how do we manipulate the data in the database?
