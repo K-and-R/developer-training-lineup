@@ -362,6 +362,16 @@ might use a `POST` request method. Let's take a look at them:
 
 * `PUT`
 
+    - This method is used to update or create a resource. This is the different than the `POST` request. The entire resource
+    is replaced by the contents of the PUT request. The `POST` request adds data to the resource, but does not replace
+    or update the resource itself.
+
+* `DELETE`
+
+    - Deletes the resource in the request.
+
+There are a few more of these, but the ones listed above are the most common.
+
 ### SQL
 
 The database is a thing in itself. It is just a storage structure. So, how do we manipulate the data in the database?
