@@ -370,6 +370,8 @@ might use a `POST` request method. Let's take a look at them:
 
     - Deletes the resource in the request.
 
+
+
 There are a few more of these, but the ones listed above are the most common.
 
 ### SQL
