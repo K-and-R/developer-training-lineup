@@ -177,9 +177,12 @@ console the `key` and the `value` of the key.
 There is only one problem with this method. The loop will iterate through the key/value pairs of the *prototype* of the
 object, not just the object itself.
 
-In order to get around this, we can use a couple of other methods. These methods take the either the `keys` of the object, or
-the `values` of the object and places them into their own array. Once we have them in the array, we can use all of the array
-methods available to us (there are quite of few of these.) The methods are called `Object.keys()` for keys,
+In order to get around this, we can use a couple of
+other methods. These methods take the either the `keys` of the object, or the `values` of the object and places them into
+their own array. Once we have them in the array,
+we can use all of the array
+methods available to us (there are quite of few of these.)
+The methods are called `Object.keys()` for keys,
 and `Object.values()` for values. It looks like this:
 
 ```javascript
@@ -188,7 +191,7 @@ const myInventory = {
     pants : 124,
     socks : 56,
     belts : 1232
-};  
+};
 
 let myKeys = Object.keys(myInventory);
 console.log(myKeys);
@@ -197,7 +200,7 @@ console.log(myKeys);
 ```
 
 This is really helpful because now we can use array methods to interact with our object keys. We can do the same thing with
-object values by using `Object.values()` in place of `Object.keys()`. 
+object values by using `Object.values()` in place of `Object.keys()`.
 
 ## Object Destructuring
 
