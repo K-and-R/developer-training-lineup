@@ -152,6 +152,53 @@ console.log(foo);
 So, the difference here is you can use a variable in place of a property name *if* the variable evaluates to a string
 The string is the property name in the object.
 
+## Looping through Objects
+
+We have looked at how to access a single key or single value. But what if we want to cycle through the entire object.
+Maybe we want to list out all of the keys or values contained in the object. We do not want to be forced to write our every
+single key or value. We can use a loop to iterate through the object. It looks like this:
+
+```javascript
+const myInventory = {
+    shirts : 23,
+    pants : 124,
+    socks : 56,
+    belts : 1232
+};
+
+for(item in myInventory){
+    console.log(`${item}: ${myInventory[item]}`);
+};
+```
+
+In this example `item` is the iterator. It is equal to the `key` in the object. There is also a function that prints to the
+console the `key` and the `value` of the key.
+
+There is only one problem with this method. The loop will iterate through the key/value pairs of the *prototype* of the
+object, not just the object itself.
+
+In order to get around this, we can use a couple of other methods. These methods take the either the `keys` of the object, or
+the `values` of the object and places them into their own array. Once we have them in the array, we can use all of the array
+methods available to us (there are quite of few of these.) The methods are called `Object.keys()` for keys,
+and `Object.values()` for values. It looks like this:
+
+```javascript
+const myInventory = {
+    shirts : 23,
+    pants : 124,
+    socks : 56,
+    belts : 1232
+};  
+
+let myKeys = Object.keys(myInventory);
+console.log(myKeys);
+
+//Output is [ 'foogs', 'blings', 'floggles' ]
+```
+
+This is really helpful because now we can use array methods to interact with our object keys. We can do the same thing with
+object values by using `Object.values()` in place of `Object.keys()`. 
+
 ## Object Destructuring
 
 The most common way of accessing properties in an object is to use dot notation. However, there is a drawback to this method.
