@@ -255,41 +255,6 @@ the front end. If you are concerned with what the server is supposed to do,you a
 The only thing we out was the database.
 We will get to that in a second.
 
-## Databases
-
-A database is an organized collection of information stored in a computer system. A database is usually accessed using a
-database management system (DBMS). Let's translate that.
-A database is a giant bucket. It contains sets of
-smaller buckets that hold data. The buckets are organized in a logical way. If you want to get, add, change, or
-otherwise mainpulate the data in a database you have to use a
-tool called a `database management system`.
-Because of the computer worlds' love of acronyms,
-you will often see a database management
-system referred to like this, `DBMS`.
-
-Why use a database? If there is data that you want to hold on to and access later, a database is the way to go.
-Things like passwords, account information, names, birthday, anything that you want to keep for a long time  all
-things stored in a database.
-
-A database organizes the data stored in it in a logical way. This allows for the best efficiency when storing or retrieving
-the data from it. The database is organized into `tables`. Each `table` has columns and rows. You could think of it as a
-sheet of graph paper. The rows (the lines going from left to right) are called `records`. The individual cells that hold
-data are called `fields`.
-
-Below is a very basic example of what a table looks like.
-The whole thing is the `table`. An individual cell is a `field`. A row of `fields` is a `record`. A stack of `fields` one
-atop the next is a `column`.
-
-![Table Example](../../images/Screenshot%20from%202021-05-14%2012-22-04.png)
-
-A database will usually have many tables stored in it. These different tables are related to each other.
-For example, you might have a table that holds customer data. That might include a name, an address, an account number, etc.
-There can be (and often are) several different tables all holding data. These tables contain data that are related to each
-other. By accessing these different tables all kinds of different reports, analysis, and other combinations of the data
-can be formed. This type of database that uses tables is called a `relational database`. This is the most common type of
-database. There are several other ways to organize data in a database. These are all referred to as
-`non-relational databases`.
-
 ### HTTP
 
 HTTP stands for `Hypertext Transfer Protocol`. A `protocol` is a set of rules governing the exchange or transmission of
@@ -371,6 +336,105 @@ might use a `POST` request method. Let's take a look at them:
     - Deletes the resource in the request.
 
 There are a few more of these, but the ones listed above are the most common.
+
+### Ports
+
+Computers connected to the internet use a set of rules (protocol) in order to communicte to each other.
+This protocol is called `TCP/IP`. The letters mean `Transmission Control Protocol` and `Internet Protocol` respectively.
+There is also `UDP`. These letters mean `User Datagram Protocol`. There is a difference between `TCP` and `UDP`, as you
+would imagine. TCP establishes a direct connection between two or more computers. This connection remains for the duration
+of the data transfer. It is then closed. UDP is a little different. Instead of a direct transfer of data, the UDP sends
+bundles the data into a package. This package is then sent out into the internet and will hopefully arrive where it is
+supposed to. The difference her is that UDP does not establish a direct connection to the recieving computer. It relies,
+instead, on the devices in between the two computers to
+route the data.
+
+Using UDP there is no quarantee that the data will arrive where it is supposed to go. However, it has a low overhead, and
+the likelyhood is pretty good that you will get the data.
+But sometimes, maybe, you won't.
+
+### TCP and UDP Ports
+
+Every device connected to the internet has a unique identifier. This is known a s an IP address. It is a number that is
+associated with a particular device. In the past, it was pretty much only computers that had IP addresses. These days
+*anything* that uses the internet for anything has an IP address. Printer, cameras, phones, and a whole host of other things
+can connect to the internet. All of them have IP addresses.
+Without an IP address, there is no way of knowing which
+device is which. Hence, the server will not know where to
+send the data that has been requested.
+
+Each IP address has a series of "channels" that send and receive data. These channels are called `ports`. There are *a lot*
+of them. 65,535 for both TCP and UDP to be exact.
+
+When you send a request to a web server (a server that has a webpage(s) stored on it) your computer will send the request
+from a random port (any one of the 65,535 ports available).
+The server, if it is using the HTTP protocol, will be "listening" for incoming connections on port 80. When the request is
+received and the response returned, the connection closes. That means for every request made to the server a connection
+is established, a request is received, request response sent,
+and the connection is closed. Your computer ends the request from any old port available. However, the server
+(when using HTTP) is listening for the request on port 80. Not to beat this to death or anything, but remember the server is
+bound to port 80. The connection is established, data is transferred, and the connection is closed each and every
+time a request is made.
+
+### HTTP vs. TCP/IP
+
+There are several different sets of rules (protocols) that exist for the purpose of allowing computers the communicate to
+each other. HTTP is a set of rules that tell the computer
+how to transfer *information* from one place to another.
+TCP/IP is the set of rules that determines how the *connections* are made between computers. When we are talking about TCP/IP
+we might include the subject of ports. However, when discussing HTTP, we really don't care about the port. We are just
+talking about the information that moves through the connection. You could think of TCP/IP as the road, and HTTP as the
+thing transported on that road.
+
+### HTTPS
+
+HTTPS means `HyperText Transfer Protocol Secure`. While HTTP uses port 80 to listen for requests, HTTPS uses port 443. The
+difference is security. HTTPS encrypts the data that is
+sent over the connection.
+
+In order to use HTTPS instead of HTTP, you need to get an SSL Certficate. SSL means `Secure Socket Layer`.
+The certificate is actually a small data file that binds a cryptographic key to an organizations details.
+This makes your website secured. This is necessary
+to protect visitors to your website personal information, including financial data that may be needed for transactions over
+the internet. There are several different kinds of SSL Certifcates. Each provides a different type or different degree of
+security. SSL Certifcates can be obtained for free, but larger oganizations will pay for certs that provide greater security.
+If your website handles personal information you will need
+to use HTTPS instead of HTTP.
+
+### Databases
+
+A database is an organized collection of information stored in a computer system. A database is usually accessed using a
+database management system (DBMS). Let's translate that.
+A database is a giant bucket. It contains sets of
+smaller buckets that hold data. The buckets are organized in a logical way. If you want to get, add, change, or
+otherwise mainpulate the data in a database you have to use a
+tool called a `database management system`.
+Because of the computer worlds' love of acronyms,
+you will often see a database management
+system referred to like this, `DBMS`.
+
+Why use a database? If there is data that you want to hold on to and access later, a database is the way to go.
+Things like passwords, account information, names, birthday, anything that you want to keep for a long time  all
+things stored in a database.
+
+A database organizes the data stored in it in a logical way. This allows for the best efficiency when storing or retrieving
+the data from it. The database is organized into `tables`. Each `table` has columns and rows. You could think of it as a
+sheet of graph paper. The rows (the lines going from left to right) are called `records`. The individual cells that hold
+data are called `fields`.
+
+Below is a very basic example of what a table looks like.
+The whole thing is the `table`. An individual cell is a `field`. A row of `fields` is a `record`. A stack of `fields` one
+atop the next is a `column`.
+
+![Table Example](../../images/Screenshot%20from%202021-05-14%2012-22-04.png)
+
+A database will usually have many tables stored in it. These different tables are related to each other.
+For example, you might have a table that holds customer data. That might include a name, an address, an account number, etc.
+There can be (and often are) several different tables all holding data. These tables contain data that are related to each
+other. By accessing these different tables all kinds of different reports, analysis, and other combinations of the data
+can be formed. This type of database that uses tables is called a `relational database`. This is the most common type of
+database. There are several other ways to organize data in a database. These are all referred to as
+`non-relational databases`.
 
 ### SQL
 
