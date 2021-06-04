@@ -372,9 +372,11 @@ The server, if it is using the HTTP protocol, will be "listening" for incoming c
 received and the response returned, the connection closes. That means for every request made to the server a connection
 is established, a request is received, request response sent,
 and the connection is closed. Your computer ends the request from any old port available. However, the server
-(when using HTTP) is listening for the request on port 80. Not to beat this to death or anything, but remember the server is
-bound to port 80. The connection is established, data is transferred, and the connection is closed each and every
-time a request is made.
+(when using HTTP) is listening for the request on port 80.
+Not to beat this to death or anything, but remember the
+server is bound to port 80. The connection is established,
+data is transferred, and the connection is closed each
+and every time a request is made.
 
 ### HTTP vs. TCP/IP
 
