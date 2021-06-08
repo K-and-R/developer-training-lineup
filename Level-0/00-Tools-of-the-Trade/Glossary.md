@@ -2,10 +2,13 @@
 
 * `ACSII`
 
-    - American Standard Code of Information Interexchange. This is a standard for encoding letters and numbers. Computers do
-    not understand letters *or* numbers. They understand "1" and "0" only. The ASCII standard assigns each letter and number
-    a number. That number is then converted into binary (1's and 0's). Now, the computer understands what the number
-    or letter is.
+    - American Standard Code of Information Interexchange.
+    This is a standard for encoding letters and numbers. Computers do not understand letters *or* numbers.
+    They understand "1" and "0" only.
+    The ASCII standard assigns each letter and number
+    a number. That number is then converted into binary
+    (1's and 0's). Now, the computer understands what the
+    number or letter is.
 
     Here is an example:  The ACSII numerical code of the letter "h" is 104. 104 translates in binary code to 01101000. The
     computer doesn't understand "h" or even "104". But it *does* understand 01101000. It knows that is the letter "h".
@@ -83,8 +86,10 @@ are just place holders. They tell the computer to expect the function to receive
 
     - A group of values defined by a single identifer.
     A `variable` is like a single box. The box has a name
-    (whatever name you want to call it). Inside the box is stored a value. We can connect together a series of boxes and put
-    values in each box. Then we can give the whole thing a single name. This is an `array`. Each box in our array is
+    (whatever name you want to call it).
+    Inside the box is stored a value. We can connect together a series of boxes and put values in each box.
+    Then we can give the whole thing a single name.
+    This is an `array`. Each box in our array is
     labeled with a number beginning with "0".
     It looks like this:
 
@@ -118,8 +123,9 @@ console.log(myArray[0]);
 * `Browser`
 
     - A piece of software that permits users to locate and view internet content. Data stored on remote servers can be accessed
-    and viewed using a browser. Most browsers are associated with a `search engine`. A search engine is not the same thing as
-    a browser. These two different programs are often confused.
+    and viewed using a browser. Most browsers are associated
+    with a `search engine`. A search engine is not the same
+    thing as a browser. These two different programs are often confused.
 
 * `Binary`
 
@@ -132,16 +138,21 @@ console.log(myArray[0]);
 
 * `Back-end`
 
-    - The portion of a computer program that runs out of sight of the user. In web development, the back-end consists of
-    writing code that governs how a server send data to users. The back-end handles accessing data from a database as well as
-    determining what data is to be sent back as well as the format it should be sent as. None of these operations are
+    - The portion of a computer program that runs out of
+    sight of the user. In web development, the back-end
+    consists of writing code that governs how a server send
+    data to users. The back-end handles accessing data from a database as well as determining what data is to be sent
+    back as well as the format it should be sent as.
+    None of these operations are
     apparent to the user.
 
 * `bash`
 
-    - Bourne Again SHell. A `shell` is a command interpreter that executes commands from the user. A shell program allows a
-    human to give commands to a computer. Executing commands in the shell is not quite the same as writing a computer
-    program. These days, most everyone is used to using a mouse to click on icons placed on the computer screen. Alas, there
+    - Bourne Again SHell. A `shell` is a command interpreter
+    that executes commands from the user.
+    A shell program allows a human to give commands to
+    a computer. Executing commands in the shell is not quite the same as writing a computer program. These days, most
+    everyone is used to using a mouse to click on icons placed on the computer screen. Alas, there
     was a time before that technology existed. A shell program was needed to execute commands that today would normally be
     done with a mouse. The original shell program was updated in 1989. That update was called the Bourne shell.
     The term Bourne Again Shell is an attempt at humor
