@@ -181,7 +181,9 @@ console.log(myArray[0]);
 
 * `boolean`
 
-    - A data type that consists of two possible values, 0 and 1. The 0 value is referred to as `false` and the 1 value as `true`.
+    - A data type that consists of two possible values, 0 and 1. The 0
+    value is referred to as `false`
+    and the 1 value as `true`.
     It is named for English mathematician, George Boole. His book, The Mathematical Analysis of Logic, laid out the
     principles of applying mathematics to decision-making. His ideas were very influential in computer programming and design.
 
