@@ -159,3 +159,107 @@ console.log(myArray[0]);
     by persons who probably should have just stuck with
     programming.
 
+* `Binding`
+
+    - To create a connection between two or more programming object for a specified period of time.
+
+* `bit`
+
+    - Short for `binary digit`. It is a single unit of information of either the value 1 or the value 0. Eight of these
+    grouped together form a `byte`. Two `bytes` joined
+    together form a `word`, or a total of 16 `bits`. All of these units allow the computer to store data in memory, and
+    retrieve the data when needed. One bit is too small to store any useful information. For this reason, bits are grouped
+    into bytes, and bytes into words. The smallest unit of
+    memory is the `byte`.
+
+* `bitmap`
+
+    - A type of file that stores graphics information (pictures). They can be identified by the file extension `.bmp` or
+    `.dib`. These types of graphics files tend to be larger than similar types of graphics files. Therefore, their use
+    outside of a Microsoft Windows environment is not
+    recommended.
+
+* `boolean`
+
+    - A data type that consists of two possible values, 0 and 1. The 0 value is referred to as `false` and the 1 value as `true`.
+    It is named for English mathematician, George Boole. His book, The Mathematical Analysis of Logic, laid out the
+    principles of applying mathematics to decision-making. His ideas were very influential in computer programming and design.
+
+* `boot`
+
+    - Sometimes referred to `boot up` or `start-up`, `boot` is the various actions a computers performs to prepare for
+    operation. These begin whenever power is supplied to the
+    system (When you turn it on).
+    The computer will perform a self-
+    diagnostic to ensure everything is operating properly.
+    It will then load the operating system. Once the operating system is running, any additonal programs configured
+    to run on start-up are loaded. Sometimes it is required that the computer `boot` again after software is added to
+    its memory, or to handle a irregularity in its operation.
+    You can `boot` the computer at any time. This is called `re-booting`.
+
+* `Broadband Internet`
+
+    - A telecommunications technology that provides high-speed internet access using multiple channels of digital signals
+    all running at the same time. `Broadband Internet` provides fast interchange of data between devices present on
+    the internet.
+
+* `Bubble Sort`
+
+    - A type of sort that compares two adjacent values in a list. The values are either swapped in position or left
+    alone depending on the condition of the sort. Each pair of adjacent values are compared until no further swaps are required.
+
+* `buffer`
+
+    - A temporary storage area used to hold data while the computer is processing other data.
+
+* `bug`
+
+    - A general term used to describe a error in the
+    execution of a computer program or a malfunction in a hardware component. If a program has `bugs` it means
+    there are errors in the code that prevent the program from functioning as intended. `De-bugging` is the term used
+    to describe the action of finding and correcting `bugs`.
+    This is a very large step in the program development process.
+
+* `bug-tracking`
+
+    - The action of reporting bugs when they are found. The error and its resolution is recorded for future reference.
+    There are several spftware programs that perform this acition. By keeping a central repository documenting bugs,
+    developers can keep track of errors in the development
+    process.
+
+* `computer`
+
+    - A programmable device that stores, retrieves, and manipulates data. Computers recieve the input of data, manipulates
+    that data, outputs the data, and stores data. Computers in modern times come all manner of sizes and
+    configurations. Everything from a desktop computer to the microprocessor in an autonomous drone.
+    If the device inputs, outputs, manipulates, and stores
+    data, it is considered a computer.
+
+* `CPU`
+
+    - Central Processing Unit. The computers' CPU handles all of the instructions it receives from hardware and software.
+    It is the "brain" of the computer.
+
+* `cache`
+
+    - To store away in hiding or for later use. The name of the place where something is stored for hiding or later use.
+
+    - A high speed access area reserved in memory. Data is stored in the cache for faster access to the CPU. The idea of
+    storing information that might be needed again can be applied to anything that might need it. The idea is to make
+    the processing of data faster. computers cache data that it uses frequently rather having to access that data from
+    where it is stored in memory. In web browsers, data received from a server can be kept in the browsers cache.
+    In this way the browser does not need to continually make requests of the server.
+
+* `callback`
+
+    - A function that is passed as an argument in another function. It is called a `callback` because it is not executed
+    until the function that receives it as an argument is, itself, invoked. The callback function may never be called.
+    It depends on whether the parent function is ever invoked.
+    If it is, the interpreter must go back, or *callback* to the argument function and execute that.
+
+* `C:`
+
+    - The designation for the first primary hard drive on IBM compatible computers (PC's). This disk drive is also
+    sometimes referred to as `Local Disk` or `Primary Drive`.
+
+
