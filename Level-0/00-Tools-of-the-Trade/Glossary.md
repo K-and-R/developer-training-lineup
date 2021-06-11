@@ -264,4 +264,77 @@ console.log(myArray[0]);
     - The designation for the first primary hard drive on IBM compatible computers (PC's). This disk drive is also
     sometimes referred to as `Local Disk` or `Primary Drive`.
 
+* `char`
 
+    - A data type used in some programming languages. It refers to `character`. A `char` data type holds one character.
+    The character could be any character on the keyboard. JavaScript does not have a `char` data type
+    (It doesn't require any sort of type declarations).
+    However, it does have methods that act on characters. Methods like `charAt()` or `charCodeAt()` are used in JavaScript
+    to return values related to the characters in a string.
+
+* `chmod`
+
+    - In a Unix-type operating system, this command is
+    used to grant or restrict file permissions.
+    It is laid out like this:
+    `chmod options permissions file name`. `Options` refers to modifiers telling the computer how the command should
+    be executed. `Permission` refers to what sort of permission should be associated with the file. `File name` is the name
+    of the file to which permission should be applied.
+
+* `Chrome`
+
+    - A free internet browser offered by Google. It is very widely used throughout the internet community.
+
+* `CLI`
+
+    - Command Line Interface. An interface for interacting with a computer. Often CLI is used to refer to accessing
+    network computers. This is correct, but incomplete.
+    Any computer can be controlled using the CLI. When you are giving commands in the terminal you are suing the
+    Command Line. The place you are giving the commands is
+    the interface.
+
+* `click`
+
+    - The action of activating the buttons on a mouse. `Click` also refers to a DOM event that fires a callback function when
+    the 'click' event is detected.
+
+* `client`
+
+    - A device connected to the internet that uses the resources of another device likewise connected. In the past, a client
+    was a computer that connected to a server (another
+    computer at a remote location). If a computer
+    is the reciever of a server resource, it is the `client`. Today, there are all sorts of different types of
+    devices that utilize internet resources. All of these could correctly be referred to as `clients`. These days, a server
+    is often not a physical machine. More likely, the server is merely another computer program performing the actions
+    of a server. Several of these servers may be living on
+    the same physical machine.
+
+* `cloud`
+
+    - Services provided over a network by a collection of many different remote servers. The data in this collection
+    is distributed over the whole of the collection, thus the term "cloud". Applications running in the cloud can be accessed
+    by clients and used just as if the software had been downloaded to the users machine without the clients machine having
+    to store the application in its own memory.
+
+* `COBOL`
+
+    - Common Business Oriented Language. COBOL is a very early computer programming language. Introduce in 1959,
+    COBOL was created to provide a means for programming
+    business applications. It is still in use in many businesses.
+
+* `code`
+
+    - Short for `source code`. Code is the text written to give instructions to a computer. There are many types of
+    computer languages used for writing code.
+
+* `coder`
+
+    - One who writes code.
+
+* `color codes`
+
+    - Hexidecimal or decimal number codes used to describe
+    various colors on a computer screen. Millions of different colors can be rendered using combinations of the colors
+    red, green, and blue. The amount of each of these are determined by a numeric code. This code can be either
+    numeric or hexidecimal. The color purple would have the
+    color code of rgb(39, 34, 166). each number represents the amount of red, green, and blue present in the color purple.
