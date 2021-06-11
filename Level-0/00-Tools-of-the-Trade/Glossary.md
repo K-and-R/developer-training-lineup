@@ -295,8 +295,8 @@ console.log(myArray[0]);
 
 * `click`
 
-    - The action of activating the buttons on a mouse. `Click` also refers to a DOM event that fires a callback function when
-    the 'click' event is detected.
+    - The action of activating the buttons on a mouse.
+    `Click` also refers to a DOM event that fires a callback function when the 'click' event is detected.
 
 * `client`
 
