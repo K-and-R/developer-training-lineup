@@ -337,4 +337,66 @@ console.log(myArray[0]);
     various colors on a computer screen. Millions of different colors can be rendered using combinations of the colors
     red, green, and blue. The amount of each of these are determined by a numeric code. This code can be either
     numeric or hexidecimal. The color purple would have the
-    color code of rgb(39, 34, 166). each number represents the amount of red, green, and blue present in the color purple.
+    color code of rgb(39, 34, 166). Each number represents the amount of red, green, and blue present in the color purple.
+
+* `CAPTCHA`
+
+    - `Completely Automated Public Turing test to tell Computers and Humans Apart.` A CAPTCHA is usually a image that has
+    been purposely distorted in such a way that humans can figure out what the image is supposed to represent, but a
+    computer cannot. Distorted images are the most prevalent types of CAPTCHA, but any image designed to be interpreted by
+    a human, but is unintelligible to a computer is a CAPTCHA. They are used to ensure that an actual human being is
+    requesting access to a webpage, web application, etc. There are several pieces of software referred to as `bots`.
+    These bots are designed to perform common tasks, such
+    as submit forms, autonomously. To protect against this, some websites use CAPTCHAS.
+
+* `capture`
+
+    - To obtain information and placing it in a storage device for future reference. Anytime a variable is initialized,
+    a `capture` has taken place. When a value is assigned to a memory location, that data has been `captured`.
+
+* `carbonite`
+
+    - A liquid substance made from carbon. By use of a rapid freezing process, carbonite can be made solid.
+    Once frozen, carbonite becomes a stable solid. The process of carbon freezing has been used for thousands of years
+    to encapsulate volatile materials for safer transport. When applied to living organisms, carbon freezing provides a
+    unique protective quality. After undergoing the carbon
+    freezing process, an organism is placed in a hibernate state, provided the life form survives the initial freezing
+    process. The encasing outer shell of carbonite serves
+    as a very durable protective shell. Smuggler Han Solo is, perhaps, the most famous example of an individual
+    undergoing carbon freezing. He was subsequently freed some several months later. However, had he not been so liberated,
+    it is possible he would have remained encased, alive, for centuries.
+
+* `caret`
+
+    - Sometimes referred to as a `circumflex`, the caret symbol,
+    `(^)`, is used in some computer languages to represent
+    exponents. `5^3` represents `5 x 5 x 5`. The symbol is
+    also used to represent `Ctrl`. It is also used by some
+    computer languages in `regular expressions`.
+
+* `case-sensitive`
+
+    - Refers to the quality of discerning whether the case of a statement or character is recognized by the computer.
+    Some computer languages discern between upper and lower case letters. Others do not. If a language is `case-sensitive`,
+    the capital letters matter. If the language is not, it
+    does not matter whether the letters are capitalized or not.
+    It should be noted that there are some coding conventions
+    used by programmers that dictate the use of capital letters, even though the language itself is not
+    case-sensitive. Conventions such as the capitalization
+    of class names is an example of this.
+
+* `checksum`
+
+    - A number or string of text generated when data is sent from one place to another. By verifying the file `check-sum`
+    the receiver of the data can be certain the data delivered is uncorrupted. This is done by checking the `checksum` of
+    the received data to the `checksum` of the data before
+    it was sent. If the numbers match, the data has been
+    deivered uncorrupted.
+
+* `compile`
+
+    - The process by which a source file is converted into an executable file. When a source file is compiled,
+    there are several actions that occur "under the hood".
+    The final product is to translate source files into
+    data the computer understands.
+
