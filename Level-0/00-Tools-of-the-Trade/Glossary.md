@@ -55,7 +55,7 @@
     - A popular brand of HTTP server. A very large number of HTTP servers are made by Apache. The technology is
     open-source, supported by ASF (Apache Software Foundation). It runs on Linux or other Unix based operating systems.
 
-* `App`
+* `app`
 
     - Short for `application`. It is a program developed for phones or tablets. The term was popularized by Apple in
     conjuction with the release of the first iPhone.
@@ -66,7 +66,7 @@
     However, the truth is there is no difference
     between the two.
 
-* `Argument`
+* `argument`
 
     - Sometimes abbreviated to `arg`. It is a value that is passed into a command, function, or routine.
     Here is an eample of an argument:
@@ -146,7 +146,7 @@ console.log(myArray[0]);
     None of these operations are
     apparent to the user.
 
-* `bash`
+* `Bash`
 
     - Bourne Again SHell. A `shell` is a command interpreter
     that executes commands from the user.
@@ -159,7 +159,7 @@ console.log(myArray[0]);
     by persons who probably should have just stuck with
     programming.
 
-* `Binding`
+* `binding`
 
     - To create a connection between two or more programming object for a specified period of time.
 
@@ -205,7 +205,7 @@ console.log(myArray[0]);
     all running at the same time. `Broadband Internet` provides fast interchange of data between devices present on
     the internet.
 
-* `Bubble Sort`
+* `bubble sort`
 
     - A type of sort that compares two adjacent values in a list. The values are either swapped in position or left
     alone depending on the condition of the sort. Each pair of adjacent values are compared until no further swaps are required.
