@@ -35,7 +35,7 @@
     retrieve data from a server. If the code wasn't asynchronus, everything would just stop until the data retrieval process
     was complete. AJAX refers to the different technologies that allow that to happen.
 
-* `algorithm`
+* `Algorithm`
 
     - A list of instructions, procedures, or a formula that solves a problem. Even a recipe could be considered a algorithm.
     If you do so-and-so, then do this-and-that, you get a thingamabob. This would be an algorithm.
@@ -55,7 +55,7 @@
     - A popular brand of HTTP server. A very large number of HTTP servers are made by Apache. The technology is
     open-source, supported by ASF (Apache Software Foundation). It runs on Linux or other Unix based operating systems.
 
-* `app`
+* `App`
 
     - Short for `application`. It is a program developed for phones or tablets. The term was popularized by Apple in
     conjuction with the release of the first iPhone.
@@ -66,7 +66,7 @@
     However, the truth is there is no difference
     between the two.
 
-* `argument`
+* `Argument`
 
     - Sometimes abbreviated to `arg`. It is a value that is passed into a command, function, or routine.
     Here is an eample of an argument:
@@ -159,11 +159,11 @@ console.log(myArray[0]);
     by persons who probably should have just stuck with
     programming.
 
-* `binding`
+* `Binding`
 
     - To create a connection between two or more programming object for a specified period of time.
 
-* `bit`
+* `Bit`
 
     - Short for `binary digit`. It is a single unit of information of either the value 1 or the value 0. Eight of these
     grouped together form a `byte`. Two `bytes` joined
@@ -172,14 +172,14 @@ console.log(myArray[0]);
     into bytes, and bytes into words. The smallest unit of
     memory is the `byte`.
 
-* `bitmap`
+* `Bitmap`
 
     - A type of file that stores graphics information (pictures). They can be identified by the file extension `.bmp` or
     `.dib`. These types of graphics files tend to be larger than similar types of graphics files. Therefore, their use
     outside of a Microsoft Windows environment is not
     recommended.
 
-* `boolean`
+* `Boolean`
 
     - A data type that consists of two possible values, 0 and 1. The 0
     value is referred to as `false`
@@ -187,7 +187,7 @@ console.log(myArray[0]);
     It is named for English mathematician, George Boole. His book, The Mathematical Analysis of Logic, laid out the
     principles of applying mathematics to decision-making. His ideas were very influential in computer programming and design.
 
-* `boot`
+* `Boot`
 
     - Sometimes referred to `boot up` or `start-up`, `boot` is the various actions a computers performs to prepare for
     operation. These begin whenever power is supplied to the
@@ -205,16 +205,16 @@ console.log(myArray[0]);
     all running at the same time. `Broadband Internet` provides fast interchange of data between devices present on
     the internet.
 
-* `bubble sort`
+* `Bubble sort`
 
     - A type of sort that compares two adjacent values in a list. The values are either swapped in position or left
     alone depending on the condition of the sort. Each pair of adjacent values are compared until no further swaps are required.
 
-* `buffer`
+* `Buffer`
 
     - A temporary storage area used to hold data while the computer is processing other data.
 
-* `bug`
+* `Bug`
 
     - A general term used to describe a error in the
     execution of a computer program or a malfunction in a hardware component. If a program has `bugs` it means
@@ -222,14 +222,14 @@ console.log(myArray[0]);
     to describe the action of finding and correcting `bugs`.
     This is a very large step in the program development process.
 
-* `bug-tracking`
+* `Bug-tracking`
 
     - The action of reporting bugs when they are found. The error and its resolution is recorded for future reference.
     There are several spftware programs that perform this acition. By keeping a central repository documenting bugs,
     developers can keep track of errors in the development
     process.
 
-* `computer`
+* `Computer`
 
     - A programmable device that stores, retrieves, and manipulates data. Computers recieve the input of data, manipulates
     that data, outputs the data, and stores data. Computers in modern times come all manner of sizes and
@@ -242,7 +242,7 @@ console.log(myArray[0]);
     - Central Processing Unit. The computers' CPU handles all of the instructions it receives from hardware and software.
     It is the "brain" of the computer.
 
-* `cache`
+* `Cache`
 
     - To store away in hiding or for later use. The name of the place where something is stored for hiding or later use.
 
@@ -252,7 +252,7 @@ console.log(myArray[0]);
     where it is stored in memory. In web browsers, data received from a server can be kept in the browsers cache.
     In this way the browser does not need to continually make requests of the server.
 
-* `callback`
+* `Callback`
 
     - A function that is passed as an argument in another function. It is called a `callback` because it is not executed
     until the function that receives it as an argument is, itself, invoked. The callback function may never be called.
@@ -293,12 +293,12 @@ console.log(myArray[0]);
     Command Line. The place you are giving the commands is
     the interface.
 
-* `click`
+* `Click`
 
     - The action of activating the buttons on a mouse.
     `Click` also refers to a DOM event that fires a callback function when the 'click' event is detected.
 
-* `client`
+* `Client`
 
     - A device connected to the internet that uses the resources of another device likewise connected. In the past, a client
     was a computer that connected to a server (another
@@ -309,7 +309,7 @@ console.log(myArray[0]);
     of a server. Several of these servers may be living on
     the same physical machine.
 
-* `cloud`
+* `Cloud`
 
     - Services provided over a network by a collection of many different remote servers. The data in this collection
     is distributed over the whole of the collection, thus the term "cloud". Applications running in the cloud can be accessed
@@ -322,16 +322,16 @@ console.log(myArray[0]);
     COBOL was created to provide a means for programming
     business applications. It is still in use in many businesses.
 
-* `code`
+* `Code`
 
     - Short for `source code`. Code is the text written to give instructions to a computer. There are many types of
     computer languages used for writing code.
 
-* `coder`
+* `Coder`
 
     - One who writes code.
 
-* `color codes`
+* `Color codes`
 
     - Hexidecimal or decimal number codes used to describe
     various colors on a computer screen. Millions of different colors can be rendered using combinations of the colors
@@ -349,12 +349,12 @@ console.log(myArray[0]);
     These bots are designed to perform common tasks, such
     as submit forms, autonomously. To protect against this, some websites use CAPTCHAS.
 
-* `capture`
+* `Capture`
 
     - To obtain information and placing it in a storage device for future reference. Anytime a variable is initialized,
     a `capture` has taken place. When a value is assigned to a memory location, that data has been `captured`.
 
-* `carbonite`
+* `Carbonite`
 
     - A liquid substance made from carbon. By use of a rapid freezing process, carbonite can be made solid.
     Once frozen, carbonite becomes a stable solid. The process of carbon freezing has been used for thousands of years
@@ -366,7 +366,7 @@ console.log(myArray[0]);
     undergoing carbon freezing. He was subsequently freed some several months later. However, had he not been so liberated,
     it is possible he would have remained encased, alive, for centuries.
 
-* `caret`
+* `Caret`
 
     - Sometimes referred to as a `circumflex`, the caret symbol,
     `(^)`, is used in some computer languages to represent
@@ -374,7 +374,7 @@ console.log(myArray[0]);
     also used to represent `Ctrl`. It is also used by some
     computer languages in `regular expressions`.
 
-* `case-sensitive`
+* `Case-sensitive`
 
     - Refers to the quality of discerning whether the case of a statement or character is recognized by the computer.
     Some computer languages discern between upper and lower case letters. Others do not. If a language is `case-sensitive`,
@@ -385,7 +385,7 @@ console.log(myArray[0]);
     case-sensitive. Conventions such as the capitalization
     of class names is an example of this.
 
-* `checksum`
+* `Checksum`
 
     - A number or string of text generated when data is sent from one place to another. By verifying the file `check-sum`
     the receiver of the data can be certain the data delivered is uncorrupted. This is done by checking the `checksum` of
@@ -393,10 +393,53 @@ console.log(myArray[0]);
     it was sent. If the numbers match, the data has been
     deivered uncorrupted.
 
-* `compile`
+* `Compile`
 
     - The process by which a source file is converted into an executable file. When a source file is compiled,
     there are several actions that occur "under the hood".
     The final product is to translate source files into
     data the computer understands.
 
+* `Compiled-language`
+
+    - A language that must be compiled before execution. Some languages do not require compilation instead relying
+    on an interpreter to execute code.
+
+* `Configuration`
+
+    - Setting up a piece of software for use. Many programs have options that determine how it is intended to operate when
+    in use. `Configuration` is the process of setting any available options for a piece of software. When you change the
+    settings on your profile page, you are `configuring` your profile. Some of these options are required to be set in
+    a specific manner, depending on what the program is going
+    to be used for. Many programs have no options selected when first loaded into memory. Consequently, configuration
+    is required in order for the program to function at all.
+
+* `Collision`
+
+    - The condition of two or more computers or network devices sending data at the same time. when this occurrs a message
+    is sent requesting the data be sent again.
+
+    - When two pieces of data are identical to each other. Everything in the computer must have a unique
+    identifier. Variables must have unique names to be valid within the same scope, namespace, or environment.
+    Hash numbers generated for security or transfer verification must be unique. When they are not, the computer
+    tell which variable or hash is being referred to. Identical identifers will cause the program to crash.
+    Great lengths are gone to in an effort to avoid collisions. Variables naming must ensure each value can be
+    uniquely identified.
+
+* `Connectivity`
+
+    - The quality of being able to be connected to hardware or software. If something is said to have good `connectivity`,
+    it means the thing can connect to a large number of different devices or software programs.
+
+* `Console`
+
+    - Alternately referred to as a `computer console`, `root console`, `system console`, or `terminal`. The console is really
+    just the computer, the shell, a monitor, and a keyboard. Often, you will see backgrounds and icons all over the
+    computer screen. There may also be toolbars across the top of the screen, and maybe even a background image or
+    "wallpaper". All of these are layered on top of the terminal. Were all of these graphics stripped away, you would see
+    just a cursor and a blank screen. This is the console.
+
+* `Constant`
+
+    - A value that does not change. The value of pi is a constant. The speed of light is a constant. Values within a program
+    that the programmer does not wish to be altered in the running of the program. The keyword `const` is used to designate
