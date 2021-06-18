@@ -458,9 +458,10 @@ console.log(myArray[0]);
 
 * `Copy`
 
-    - The action of duplicating data from a file. The process was invented by Larry Tesler. Whole files can be duplicated or
-    only segments of a given file. This data can then be placed into another file location (paste). On the keyboard,
-    the command `Ctrl+C` will copy a file or a selection of a file.
+    - The action of duplicating data from a file.
+    The process was invented by Larry Tesler. Whole files can be duplicated or only segments of a given file.
+    This data can then be placed into another file location (paste). On the keyboard, the command `Ctrl+C` will copy a file
+    or a selection of a file.
 
 * `CPU`
 
@@ -470,13 +471,16 @@ console.log(myArray[0]);
 * `Crash`
 
     - A software or hardware problem that results in the operation of the program or the even the computer system itself.
-    When something has `crashed` it has ceased to operate 
+    When something has `crashed` it has ceased to operate
     completely.
 
 * `Crash Dump`
 
-    - When a piece of software experiences an error that terminates its operation, raw data from the software is written to
-    the filesystem. This data can then be analyized by developers to determine the cause of the crash.
+    - When a piece of software experiences an error that
+    terminates its operation, raw data from the softwares
+    written to the filesystem. This data can then be
+    analyized by developers to determine the cause of
+    the crash.
 
 * `Create`
 
@@ -498,8 +502,11 @@ console.log(myArray[0]);
 
 * `CSV`
 
-    - Comma Separated Values. CSV is a plaintext file that stores data in table form. CSV is used to store data. Because they
-    are plaintext files they can be easily viewed by spreadsheet applications or transferred to a database.
+    - Comma Separated Values. CSV is a plaintext file that
+    stores data in table form. CSV is used to store data.
+    Because they are plaintext files they can be easily
+    viewed by spreadsheet applications or transferred to
+    a database.
 
 * `Ctrl`
 
