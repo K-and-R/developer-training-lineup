@@ -443,3 +443,138 @@ console.log(myArray[0]);
 
     - A value that does not change. The value of pi is a constant. The speed of light is a constant. Values within a program
     that the programmer does not wish to be altered in the running of the program. The keyword `const` is used to designate
+
+* `Container`
+
+    - Similar to a virtual machine, a container is a encapsulated computer environment. It has its own file system (separate
+    from the file system of the host computer). A container is like a virtual machine, but much simpler.
+
+* `Cookie`
+
+    - A small amount of text data saved on the computer when a website is visited. This data helps the computer either
+    create custom pages whenever that computer visits the website in the future. It is also used to save session information,
+    so the data is available when you return to the same site. A `cookie` is the means by which a website "remembers" you
+    when you visit a website.
+
+* `Copy`
+
+    - The action of duplicating data from a file. The process was invented by Larry Tesler. Whole files can be duplicated or
+    only segments of a given file. This data can then be placed into another file location (paste). On the keyboard,
+    the command `Ctrl+C` will copy a file or a selection of a file.
+
+* `CPU`
+
+    - Central Processing Unit. A computer's CPU handles all instructions from the computer hardware or software. It is
+    the "brain" of the computer.
+
+* `Crash`
+
+    - A software or hardware problem that results in the operation of the program or the even the computer system itself.
+    When something has `crashed` it has ceased to operate 
+    completely.
+
+* `Crash Dump`
+
+    - When a piece of software experiences an error that terminates its operation, raw data from the software is written to
+    the filesystem. This data can then be analyized by developers to determine the cause of the crash.
+
+* `Create`
+
+    - Create means to make something new. When a new file or directory or just about anything that can be saved on
+    a computer is brought into existence, it has been created.
+
+* `CSS`
+
+    - Cascading Style Sheet. CSS is a language that allows developers to alter the layout and change the appearance of
+    an HTML page. It looks like this:
+
+    ```CSS
+    body {
+        font : normal 100% "Arial";
+    }
+    ```
+
+    This changes the font of the text in the body of the HTML page.
+
+* `CSV`
+
+    - Comma Separated Values. CSV is a plaintext file that stores data in table form. CSV is used to store data. Because they
+    are plaintext files they can be easily viewed by spreadsheet applications or transferred to a database.
+
+* `Ctrl`
+
+    - Short for `control`. The `Ctrl` key is used to modify the actions of other keys on the keyboard. `Ctrl+C` is
+    used for copying. `Ctrl+V` is used to paste content. There are many, many more such commands.
+
+* `Cursor`
+
+    - A visual representation on the computer screen that shows where the next symbol will be placed. On a mouse, the cursor
+    is usually an arrow or a finger. It allows a user to move elements of the GUI or desginate where something has
+    been selected on the screen.
+
+* `Cut`
+
+    - The action of removing an item from its location and placing it temporarily in another location called the `clipboard`.
+    It can then be copied to another location.
+
+* `Cyber`
+
+    - Relating to or characteristic of the culture of computers. The word is derived from the Greek "kubernetes" which means
+    "A pilot or steersman" from the word "kubernesis" meaning "the gift of governance".
+
+* `Download`
+
+    - To copy data from one computer to another via a network. Whenever a browser connects to a website, data is transferred,
+    or `downloaded`. Downloading refers to receiving data. `Uploading` is the opposite of `downloading`.
+
+* `Data`
+
+    - Any set of characters that is gathered and translated for some purpose. Data can be subdivided in various catagories.
+    If the characters in a computer convey an idea to a human, it is data.
+
+* `Desktop`
+
+    - If you think of your computer as a desk, the desktop is all of the stuff that is laying on your desk when you sit down
+    in the morning. Some things are always on you desk, like a pencil holder or a stapler. The icons on the screen are
+    just like those things, except they are graphical images. If you click on one these graphical icons, programs or files
+    can be opened. You can open files and leave them open. They are on the desktop.
+
+* `Device driver`
+
+    - A group of files that allow hardware to communicate with computer's operating system. Without drivers, a computer
+    would be unable to send an receive data from hardware like a printer or keyboard.
+
+* `Daemon`
+
+    - In Unix and Linux, a daemon is a program that runs in the background without user interaction.
+
+* `Dashboard`
+
+    - A collection of data displayed together. A dashboard is called a dashboard because it is very much like the
+    dashboard of a car. It allows the user to interact with vehicle as well as give commands to the vehicle. A computer
+    dashboard does much the same thing. It allows a user to see relevant information as well as interact with the program.
+
+* `Database`
+
+    - A storage repository for data. Databases store data in an organized manner. Data can be grouped, stored, and
+    retrieved using a database. Most databases organize data according its relationship to other data. This type of
+    database is called a `relational database`. While relational databases are the most common type of database, there are
+    other types of databases that organize data in a
+    different way.
+
+* `Database server`
+
+    - A computer system that provides other computers with
+    services related to accessing and retrieving data from a database. You can access a database server either from
+    the "front-end" running locally on a users machine or
+    from the "back-end" running on the database server itself.
+
+* `Data breach`
+
+    - The action of unauthorized persons gaining access to restricted area of a computer or portion of a network.
+    It is a bad thing. Computer security is a BIG DEAL. When writing software, programmers should pay very close
+    attention to proper security for their software.
+
+* `Data center`
+
+    - A facility used to store computers
