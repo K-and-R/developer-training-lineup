@@ -586,4 +586,116 @@ console.log(myArray[0]);
 
     - A facility used to store computers
 
+* `Datadump`
 
+    - The transfer of a large amount of data tranferred between
+    two systems. This is usually done over a network. Databases
+    can be dumped to another server so that it can be used by
+    other software applications.
+
+* `Data Encryption`
+
+    - The action of making data unreadable to persons and computers. This is done for the purpose of
+    preventing unauthorized persons from viewing
+    or otherwise utilizing the data. Making information unintelligible to persons unauthorized to view it goes
+    back centuries. Today, complex algorithms are ultilized to encrypt data.
+
+* `Data Extraction`
+
+    - Also referred to as `web harvesting`, `web crawling`, or `web scraping`. Data extraction is the action of copying
+    information published on websites. Data extraction is utilized for a variety of purposes. Gathering sales leads,
+    analyzing information, and copying data are just a few
+    reasons for data extraction. The action itself is usually
+    done by applications specifically designed to seek out such information. Sound shady? Well, not exactly, only
+    publically-displayed data can be collected. Anything
+    living behind a username and password can not be viewed or extracted.
+
+* `Data File`
+
+    - Any file containing information, but not code. A data file is only meant to convey information, not give instructions
+    to a computer. Things like README files are data files. Source code files are not data files.
+
+* `Data Flow`
+
+    - The movement or path taken by data through a computer or device.
+
+* `Dataflow Programming`
+
+    - A type of programming wherein variables are defined in terms of other variables. A spreadsheet is an example of
+    dataflow programming. If one variable is changed, all other variables related to it are updated.
+
+* `Data Mining`
+
+    - The action of extracting useful information from a large
+    body of data. It is used for predicting future trends
+    and behaviors from within a business. It is also used to
+    find out about hidden features in video games, or to find information regarding the production process.
+
+* `Data Packet`
+
+    - First coined by Donald Davies in 1965, a data packet is a segment of data delivered to another computer or device over
+    a network. Data packets are used in order to break data down into "chunks" that are more easily handled by the network.
+
+* `Data Science`
+
+    - The study and extraction of useful information
+     raw data. There's a bunch of processes and algorithms
+     and applications used to sift through raw information
+     in order to make some useful sense of it. The whole action of doing that stuff is called `data science`.
+
+* `Data Stream`
+
+    - The continuous transmission of data between computers. Data streams are used to send large volumes of data to ease
+    the burden on network systems as well as ensure the transmission of uncorrupted data to the reciept source.
+
+* `Data Structure`
+
+    - A predefined format for storing, accessing, and processing data in a computer program. There are several different
+    types of data structures. Primitive data types are a type of data structure, as are arrays and binary trees.
+    In terms of programming, if it's a thing that does a thing, it's a data structure.
+
+* `Debug`
+
+    - The action of locating and correcting errors in the source code of a program. It is a very important part of software
+    development. More time is usually spent debugging programs than is used in actually writing the program code.
+    Becoming proficient in the techniques of debugging is essential
+    to becoming a successful software developer.
+    There are many different tools that have been developed
+    to assist in this process.  
+
+* `Debugger`
+
+    - A software utility used to detect errors in a program.
+
+* `Decentralized System`
+
+    - An interconnected information system where no single entity has sole authority. In the context of computer technology,
+    this usually takes the form networked computers. While the system is decentralized in the sense that there is no single
+    node of the system had can interact with all other nodes
+    of the system, it does not contain fully autonomous nodes.
+    There are sub-nodes that have authority over a group of
+    nodes in the system. The internet is an example of a
+    decentralized system. It can be thought of as a
+    "network of networks". Each network *does* have a central authority over its own group of devices on its own
+    network. That sub-network can connect to the wider
+    network of other networks that make up the internet.
+
+* `Decimal`
+
+    - A numbering system comprised of the numerals 0-9.
+    Numbers are grouped in multiples of 10 based on their
+    relative position to each other. The system is often falsely
+    attributed to the Chinese. It is actually derived from
+    Hindu/Arabic sources. Utilizing base-10 number systems was not exclusive to Arabic territories.
+    The system is largely attributed to them because of
+    the method of indicating the multiples of ten by position.
+    01 is equal to 1, whereas 10 is equal to a group of 10 units. Starting from the left, there are positons that
+    denote 1's, 10's, 100's, 1000's, etc. Each position
+    desiginates a different multiple of ten.
+
+* `Declaration`
+
+    - A statement that describes an identifier. It does *not* initialize the identifier with a value. When you declare
+    an identifier you are telling the computer, "There's this
+    thing I just made, I call it....." When you initialize an identifier you are saying, "You know that thing I made?
+    Yeah, well, it's equal to ......." Very often an identifier is declared *and* initialized at the same time.
