@@ -639,9 +639,9 @@ console.log(myArray[0]);
 * `Data Science`
 
     - The study and extraction of useful information
-     raw data. There's a bunch of processes and algorithms
-     and applications used to sift through raw information
-     in order to make some useful sense of it. The whole action of doing that stuff is called `data science`.
+    raw data. There's a bunch of processes and algorithms
+    and applications used to sift through raw information
+    in order to make some useful sense of it. The whole action of doing that stuff is called `data science`.
 
 * `Data Stream`
 
@@ -661,7 +661,7 @@ console.log(myArray[0]);
     Becoming proficient in the techniques of debugging is essential
     to becoming a successful software developer.
     There are many different tools that have been developed
-    to assist in this process.  
+    to assist in this process.
 
 * `Debugger`
 
