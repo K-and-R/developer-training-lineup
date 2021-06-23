@@ -698,4 +698,75 @@ console.log(myArray[0]);
     - A statement that describes an identifier. It does *not* initialize the identifier with a value. When you declare
     an identifier you are telling the computer, "There's this
     thing I just made, I call it....." When you initialize an identifier you are saying, "You know that thing I made?
-    Yeah, well, it's equal to ......." Very often an identifier is declared *and* initialized at the same time.
+    Yeah, well, it's equal to ......." Very often an identifier is declared *and* initialized at the same time. However,
+    it is important to make the distinction between assigining
+    and value and declaring an identifier.
+
+* `Declarative Programming`
+
+    - A style of programming wherein the logic of the program is descibed without describing the control flow.
+
+* `Decrement`
+
+    - A programming operator that decreases the value of its operand by 1.
+
+```javascript
+var x = 5;
+var y = x--;
+
+//Output x = 4 and y = 5
+
+var x = 5;
+var y = --x;
+
+//Output x = 4 and y = 4
+```
+
+The operator can be placed either before or after the operand. If placed *after* the operand, a copy of the value of "x" is
+made. The copy is decremented and assigned to the value of "x". Therefore, the value of "x" is now 4. However, "y" contains
+the original value of "x", so its value is 5.
+
+If the decrement operator is placed *before* the operand,
+the value of "x" is decremented to 4. The value of "y" is also 4.
+In this case, the original value of "x" is decremented, not
+a copy of "x".
+
+* `Dedicated`
+
+    - A term that descibes a person or thing that is devoted to a single function, purpose, or service. For example, a
+    dedicated server is a server devoted to performing one action or hosting a single application or single type of
+    application.
+
+* `Default`
+
+    - A default is the value of a option or variable if no value is given. In the case of a variable, the default is either
+    0 in some languages or `undefined`. Default values can be given for function parameters in the case where arguments
+    are expected but not passed. If you didn't pick anything, default is the value that gets picked.
+
+* `Define`
+
+    - In JavaScript, variables are `declared` using the `var` or `let` keyword. They have a value of `undefined` by
+    default. When given a value, a variable is then
+    `defined`. Functions are defined when they are written.
+
+* `Delete`
+
+    - The action of removing a file from the computer. In most systems, the data removed is not actually removed. Instead,
+    the file is placed in a `trash bin`. It can easily be recovered from this location. When the `trash bin` is emptied, the
+    memory holding the file is re-allocated to allow it to be overwritten. However, on Linux platforms deleted files are
+    not retained in any way. Once it has been deleted,
+    it is gone.
+
+* `Dependency`
+
+    - A piece of software needed by another peice of software to operate.
+
+* `Deprecated`
+
+    - Software or a feature that may still work, but is no longer supported. This also applies to software languages. As
+    time moves forward, changes to the language are implemented. Older methods may still work as software was written at
+    the time when the older method was in use. However, older (`deprecated`) methods and syntax should be avoided.
+    This presents an added challenge to learning a language.
+    This is because the student must be familiar with both the currently accepted method of syntax *and* be conversant
+    with deprecated version. A lot of code gets written between updates. If something is labeled as `deprecated`, don't use
+    it. Know it, but don't use it.
