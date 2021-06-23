@@ -722,7 +722,8 @@ var y = --x;
 //Output x = 4 and y = 4
 ```
 
-The operator can be placed either before or after the operand. If placed *after* the operand, a copy of the value of "x" is
+The operator can be placed either before or after the operand.
+If placed *after* the operand, a copy of the value of "x" is
 made. The copy is decremented and assigned to the value of "x". Therefore, the value of "x" is now 4. However, "y" contains
 the original value of "x", so its value is 5.
 
@@ -751,10 +752,10 @@ a copy of "x".
 
 * `Delete`
 
-    - The action of removing a file from the computer. In most systems, the data removed is not actually removed. Instead,
-    the file is placed in a `trash bin`. It can easily be recovered from this location. When the `trash bin` is emptied, the
-    memory holding the file is re-allocated to allow it to be overwritten. However, on Linux platforms deleted files are
-    not retained in any way. Once it has been deleted,
+    - The action of removing a file from the computer. In most systems, the data removed is not actually removed.
+    Instead, the file is placed in a `trash bin`. It can easily be recovered from this location. When the `trash bin` is
+    emptied, the memory holding the file is re-allocated to allow it to be overwritten. However, on Linux platforms deleted
+    files are not retained in any way. Once it has been deleted,
     it is gone.
 
 * `Dependency`
