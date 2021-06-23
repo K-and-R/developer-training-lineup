@@ -771,3 +771,31 @@ a copy of "x".
     This is because the student must be familiar with both the currently accepted method of syntax *and* be conversant
     with deprecated version. A lot of code gets written between updates. If something is labeled as `deprecated`, don't use
     it. Know it, but don't use it.
+
+* `Descending order`
+
+    - Arranging information from highest to lowest.
+
+* `Design`
+
+    - The planning and layout of a program or application.
+    There are a lot of ways to achieve the same thing in computer programming. Deciding how to solve the problem and then
+    solving it that way is design.
+
+* `Developer`
+
+    - An individual who creates software or maintains existing software. Most developers utilize more than one
+    computer language. They also must have an in depth understanding of the process of creating and maintaining software.
+
+* `Device`
+
+    - Any electronic object that performs a function. A computer, phone, tablet, or similar object is considered a `device`.
+
+* `Diagnostics`
+
+    - A method of testing computer software or hardware. There are many programs utilized for this purpose.
+
+* `Digital`
+
+    - A term the describes an electronic signal sent as binary digits (1's and 0's). Any device that uses an electronic
+    signal of 1's and 0's can be described as `digital`.
