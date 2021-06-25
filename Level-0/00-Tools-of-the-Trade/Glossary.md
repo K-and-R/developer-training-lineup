@@ -799,3 +799,50 @@ a copy of "x".
 
     - A term the describes an electronic signal sent as binary digits (1's and 0's). Any device that uses an electronic
     signal of 1's and 0's can be described as `digital`.
+
+* `Directory`
+
+    - A location for storing files on a computer. Sometimes referred as a `folder`. However, the proper term is
+    `directory`. On any computer system, there are only files and directories that hold files. In fact, a directory is a
+    really only another type of file, a file that groups files.
+
+* `Disc`
+
+    - A medium that stores data. Usually, this medium is physical, but it doesn't have to be. The `hard disc` on the computer
+    is just that, a solid piece of metal shaped like a disc. It stores information using a magnetic field. There are
+    also portable discs, often referred to as "floppy discs".
+    These are not much used today having been superceded by usb storage devices (flash drives).
+
+* `Display`
+
+    - A device used for viewing images or text. Also sometimes referred to as a `monitor` or `screen`.
+
+* `Div`
+
+    - An HTML element that divides the HTML page into sections. Designated with the `<div>` tag.
+
+* `Divide By Zero`
+
+    - In mathematics, the division of a given value by zero results in a meaningless statement. Anything divided by 0 is
+    itself. Therefore, the quotient of dividing by 0 is always the value itself. So, why implement the operation in the
+    first place? The answer is that sometimes the end result of multiple computations may, by chance, result in division
+    by zero. Computers don't care for this. The program running will either throw an error message or simply cease to
+    operate (crash).
+
+* `Django`
+
+    - A framework from the Django Software Foundation that makes the creation of database-driven websites easier. The
+    framework has a large number of features to assist the in the creation of database-driven websites.
+
+* `D-Link`
+
+    - Founded in 1986, D-Link manufactures network equipment such as adapters, switches, firewalls, cameras, and other
+    related equipment.
+
+* `DLL`
+
+    - Dynamic Linked Library. DLL files are basically a pool of different resources that are used in many different
+    programs running on Microsoft Windows. For example, the files used to print a document would be included in a Dynamic
+    Linked Library. Since there are probably several different programs that need to print a file, the DLL is made
+    available to all of them. By doing it this way, programmers don't have to write the code for routine tasks everytime
+    they want that task performed.
