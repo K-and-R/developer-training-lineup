@@ -846,3 +846,57 @@ a copy of "x".
     Linked Library. Since there are probably several different programs that need to print a file, the DLL is made
     available to all of them. By doing it this way, programmers don't have to write the code for routine tasks everytime
     they want that task performed.
+
+* `DNS`
+
+    - Domain Name Service.  Long ago, when the internet was young, webpages were located by a series of numbers. These
+    numbers were very much like a phone number. They were numbers one typed into the browser. The browser used this number
+    to locate the webpage. As the internet began to grow, the numbers became too numerous to remember easily. A way needed
+    to be found to give these websites proper names. The solution was to associate a webpage number (called an `IP address`)
+    with a name. A Domain Name Service stores these names and the IP addresses connected to them. When you type a name into
+    the browser, the first stop the browser makes is to the DNS server. This server takes the name and tries to match it to
+    an IP address. Once it finds the number, the DNS then directs the browser's request to the correct address.
+
+* `Document`
+
+    - The root object of the DOM (`Document Object Model`). It represents the entire HTML page. All other elements
+    are children, grandchildren, great grandchildren, etc.
+    of the Document object.
+
+* `Documentation`
+
+    - The action of recording information about a program or application. The information tells the user how the
+    application is intended to be used, how it has been designed, and any information relevant to installing and operating
+    the application. In fact, the documentation is supposed to pretty much answer any questions the user has about
+    the application. Documentation is also used extensively
+    with computer languages and their associated data
+    structures. Researching code documentation is a
+    major part of a developer's job.
+
+* `DOM`
+
+    - Document Object Model. The model used to organize an HTML page. The model consists of a series of nested objects.
+    Each object has multiple methods that can be called. In addition, each object can hold properties that act
+    as attributes. These attributes modify their elements. The DOM makes the creation of HTML pages easy and versatile.
+
+* `Domain`
+
+    - The location of a website. The domain name is associated
+    with a websites IP address. Domain names are easier to
+    remember than a series of numbers for most people.
+    That's why they're used in place of IP addresses.
+    However, if you know the IP address you can still use
+    that to locate a website.
+
+* `DOS`
+
+    - Disk Operating System. This is the Windows Command Line.
+    If you strip away all of the layers of Graphical User
+    Interface junk, what's left is the basic input/output
+    of the computer itself. This is DOS.
+
+* `DoS`
+
+    - Denial of Service. A `DoS Attack` is when a computer sends a large number of requests to a server. The server cannot
+    process all of the requests. This causes the server to slow down or fail. No single computer is capable of sending
+    that many requests on its own. A DoS attack is usually implemented from multiple computers.
