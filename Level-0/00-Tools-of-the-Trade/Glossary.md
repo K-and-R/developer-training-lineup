@@ -854,8 +854,9 @@ a copy of "x".
     to locate the webpage. As the internet began to grow, the numbers became too numerous to remember easily. A way needed
     to be found to give these websites proper names. The solution was to associate a webpage number (called an `IP address`)
     with a name. A Domain Name Service stores these names and the IP addresses connected to them. When you type a name into
-    the browser, the first stop the browser makes is to the DNS server. This server takes the name and tries to match it to
-    an IP address. Once it finds the number, the DNS then directs the browser's request to the correct address.
+    the browser, the first stop the browser makes is to the
+    DNS server. This server takes the name and tries to match
+    it to an IP address. Once it finds the number, the DNS then directs the browser's request to the correct address.
 
 * `Document`
 
