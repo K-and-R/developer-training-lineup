@@ -904,8 +904,9 @@ a copy of "x".
 
 * `DRAM`
 
-    - Dynamic Access Memory. A very common type of memory used in computers. It is a very simple device and so can be used in
-    the billions on a single computer chip.
+    - Dynamic Access Memory. A very common type of memory
+    used in computers. It is a very simple device and so
+    can be used in the billions on a single computer chip.
     It is also inexpensive. Most computer systems use DRAM for their memory.
 
 * `Dreamweaver`
@@ -937,10 +938,14 @@ a copy of "x".
 
 * `Dynamic Array`
 
-    - "Dynamic" means something can move or can change. An array is a data structure that holds data in an organized set of
-    memory locations. A `Dynamic Array` is an array that can be altered. Data can be moved, added, or removed from the
-    array. That's what makes it dynamic. Most languages use dynamic arrays, but not all of them. In C++, arrays are not
-    inherently dynamic. There are tricks to make them behave dynamically, but it is not inherent to the data structure itself.
+    - "Dynamic" means something can move or can change.
+    An array is a data structure that holds data in an
+    organized set of memory locations. A `Dynamic Array`
+    is an array that can be altered. Data can be moved,
+    added, or removed from the array. That's what makes it dynamic. Most languages use dynamic arrays, but
+    not all of them. In C++, arrays are not inherently
+    dynamic. There are tricks to make them behave dynamically,
+    but it is not inherent to the data structure itself.
 
 * `E-mail`
 
