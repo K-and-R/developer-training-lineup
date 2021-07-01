@@ -901,3 +901,99 @@ a copy of "x".
     - Denial of Service. A `DoS Attack` is when a computer sends a large number of requests to a server. The server cannot
     process all of the requests. This causes the server to slow down or fail. No single computer is capable of sending
     that many requests on its own. A DoS attack is usually implemented from multiple computers.
+
+* `DRAM`
+
+    - Dynamic Access Memory. A very common type of memory used in computers. It is a very simple device and so can be used in
+    the billions on a single computer chip.
+    It is also inexpensive. Most computer systems use DRAM for their memory.
+
+* `Dreamweaver`
+
+    - A software program by Adobe that makes building web pages easier. Dreamweaver helps with the look of the page as well
+    as the functionality.
+
+* `DRM`
+
+    - Digital Rights Management. This is a technology that seeks
+    to protect copyrights to online material. This is achieved
+    by use of a digital "watermark". The watermark is actually
+    an encryption code. DRM was originally intended to protect artists from online theft of their material. Some have
+    raised the issue that perhaps DRM has over-reached its
+    intended purpose.
+
+* `DSL`
+
+    - Digital Subscriber Line. A method to have high-speed access to the intertnet over standard copper lines. It is
+    often the slowest broadband solutions for accessing the internet.
+
+* `DVD`
+
+    - Digital Video Disc or Digital Versatile Disc. An optical storage format used for movies or other high density d
+    digital data. The disc stores data by use of a laser that physically marks the medium. Accessing the data is done
+    by playing over the disc with a laser. The laser is capable
+    of detecting the markings made by the original laser at the
+    time of its creation.
+
+* `Dynamic Array`
+
+    - "Dynamic" means something can move or can change. An array is a data structure that holds data in an organized set of
+    memory locations. A `Dynamic Array` is an array that can be altered. Data can be moved, added, or removed from the
+    array. That's what makes it dynamic. Most languages use dynamic arrays, but not all of them. In C++, arrays are not
+    inherently dynamic. There are tricks to make them behave dynamically, but it is not inherent to the data structure itself.
+
+* `E-mail`
+
+    - Short for `Electronic Mail`. E-mail is text, images, files, or anything else you can store on a computer that is sent
+    via the internet to another computer. It is, in effect, a digital messaging system between computers. The first
+    e-mail was sent by Ray Tomlinson in 1971. He sent the message to himself, but it was sent via ARPANET, a very early
+    version of the internet. The message was not anything inspiring as the sending of the e-mail was just a test.
+    Per Tomlinson the message was something like "QWERTYUIOP". By 1996, more e-mail was being sent than postal mail.
+
+* `ENIAC`
+
+    - Electronic Numerical Integrator and Computer. The first electronic computer used for general purpose. It was
+    designed by John Presper Eckert and John Mauchly at the University of Pensylvania to calculate artillery firing
+    tables for the US Army's Ballistic Research Laboratory. Construction of the ENIAC began in 1943, and completed
+    in 1946. It was orignally intended to assist the United
+    States during the World War II. The ENIAC grew over time. By 1956, the ENIAC consisted of 20,000 vacuum tubes, 1500
+    relays, 10,000 capacitors, and 70,000 resistors. It covered
+    a total of 1800 square feets and consumed 200 kilowatts of electricity. The total cost in 1956 was $487,000. What was
+    it used for? It was used for doing math. It did lots of math really, really fast.  That's what it was used for, math.
+
+* `E2EE`
+
+    - End To End Encryption. It is an ecryption method used to seure communications between two parties. The method
+    consists of using a set of digital "keys". The keys are referred to as a Public Key and a Private Key. The public key
+    is the encryption code of the data itself. Think of it as a door. The private key is a unique code known only to the
+    bearer of the key. This key is used to decrypt the public key, or, in other words, it is used to open the door.
+
+* `ECMAScript`
+
+    - A client side scripting language specification that is the basis for several scripting languages including
+    JavaScript, ActionScript, and JScript. `ECMA` is an abbrieviation for the European Computer
+    Manufacturer's Association. ECMAScript is a standard for creating a scripting language. JavaScript is derived from
+    this standard. ECMAScript is not a language, it is the
+    standard for the creation of a language.
+
+* `Edge`
+
+    - The name of the Microsoft browser included with the Windows 10 operating system. It is similar to Google's Chrome
+    browser, but is not as popular.
+
+* `Edit`
+
+    - The ability to modify a file. Whenever changes can be made, the file is said to be "editable" or "in edit mode".
+    To change something from its original form. "To edit a file" means to make changes to the file. Edits to a file are
+    not permanent until the file is saved. Remember, make sure to save your changes *before* you compile. If you don't, the
+    file might compile just fine, but it won't include any of the changes made in the code when it was edited.
+
+* `Electricity`
+
+    - The flow of electrons. Electrons are negatively charged particles that orbit around the nucleus of an atom.
+    They can move. They can leave the orbits of their parent atoms and join up with other atoms. However, any given element
+    can only hold so many atoms. If a new electron jumps to a different atom, then one of that atom's electrons has to
+    move as well. If you get enough electrons moving, you get the ability to do work. This flow of electrons shifting from
+    one atom to another atom, bumping off an electron, that then bumps off the next electron, etc. is `electricity`.
+    Electricity is pretty useful stuff. It can create heat and light, it can add functionality to just about
+    anything. Anything from super-computers to toasters can use electricity to perform tasks.
