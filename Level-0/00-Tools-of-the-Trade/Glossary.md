@@ -1,6 +1,6 @@
 # Glossary
 
-* `ACSII`
+* `ASCII`
 
     - American Standard Code of Information Interexchange.
     This is a standard for encoding letters and numbers. Computers do not understand letters *or* numbers.
@@ -1002,3 +1002,58 @@ a copy of "x".
     one atom to another atom, bumping off an electron, that then bumps off the next electron, etc. is `electricity`.
     Electricity is pretty useful stuff. It can create heat and light, it can add functionality to just about
     anything. Anything from super-computers to toasters can use electricity to perform tasks.
+
+* `Element`
+
+    - A single part of a larger group. In the case of HTML, an element represents a section of the document. Each element
+    is an object contained within the document object. These have properties and methods just like any object. These are used
+    to configure the page to look and behave as the developer wishes. The term `element` is used to refer to any part
+    a larger whole.
+
+* `Else Statement`
+
+    - A programming conditional that directs the computer to execute an alternative action in the event that the
+    previous statement evaluates to false. It goes like this, *"If this thing is true, do a thing, else do the other
+    thing"*
+
+* `elsif`
+
+    - An alternative to `else if`. It is a conditional statement meaning that if a given statement is true, a function
+    is performed.
+
+* `Encapsulation`
+
+    - The idea of grouping together data and methods that work with that data within a single structure. Encapsulation
+    also hides data within it that is not needed in order to use the structure itself. In other words, you don't need to
+    know how a toaster works in order to toast a piece of bread, you just need to know how to put the bread in and push
+    down the handle. The parts that do the work inside the
+    toaster could be said to be `encapsulated`.
+
+* `Enter key`
+
+    - Also known as the `Return key`. This key is used to initiate actions on the computer or to move the cursor to the
+    next line. It is usually located at the end of the middle
+    row of letters on the ketboard.
+
+* `Entry`
+
+    - Data entered into a field on a webpage form, spreadsheet, or database.
+
+* `Environment`
+
+    - The "area" in which a computer program is running or the "area" in which code is being written. It includes all
+    the stuff you need to write a computer program. For example, if you want to write a JavaScript program without using
+    a browser, then you need to use the Node.js environment. This environment provides libraries for your use and an
+    interpreter to parse your code and run it. All of these things combined constitute a computing "environment". You could
+    think of it as an individual "world". When writing
+    JavaScript outside the browser you have to go to "JavaScript World". That world is called Node.js. You can download
+    this world to your computer. Then when you need to write JavaScript outside of the browser you can "got to the
+    planet Node.js" and write whatever you need to. Once you
+    have Node.js on your system it is very easy to use this environment. You can take an ordinary text file, give it
+    a name (make sure to include the `.js` suffix to your
+    filename), write your code, then execute that code in the terminal by typing "node name-of-your-file.js".
+    Boom! It runs!
+
+* `Environment Variable`
+
+    - 
