@@ -1006,9 +1006,11 @@ a copy of "x".
 * `Element`
 
     - A single part of a larger group. In the case of HTML, an element represents a section of the document. Each element
-    is an object contained within the document object. These have properties and methods just like any object. These are used
-    to configure the page to look and behave as the developer wishes. The term `element` is used to refer to any part
-    a larger whole.
+    is an object contained within the document object.
+    These have properties and methods just like any object.
+    These are used to configure the page to look and behave
+    as the developer wishes. The term `element` is used to
+    refer to any part a larger whole.
 
 * `Else Statement`
 
@@ -1053,7 +1055,3 @@ a copy of "x".
     a name (make sure to include the `.js` suffix to your
     filename), write your code, then execute that code in the terminal by typing "node name-of-your-file.js".
     Boom! It runs!
-
-* `Environment Variable`
-
-    - 
