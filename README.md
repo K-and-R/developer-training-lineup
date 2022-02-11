@@ -100,7 +100,7 @@ Once the words are found and looked up in a good dictionary these same students 
 For some reason, there appears to be a sort of odd social stigma to looking up words in a dictionary.
 However, unless you can guarantee that every person who ever told you what a word meant was
 infallible in their command of the language
-and every inferrence you ever made about the meaning of a word was equally infallible, it is likely
+and every inference you ever made about the meaning of a word was equally infallible, it is likely
 that you could benefit greatly from seeing for yourself *exactly and precisely* what a word means.
 Dictionaries are great for accomplishing just that.
 
