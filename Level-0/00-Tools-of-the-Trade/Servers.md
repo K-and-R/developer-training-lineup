@@ -423,7 +423,7 @@ A database organizes the data stored in it in a logical way.  This allows for th
 
 Each database table has a 'key field' which is meant to be unique (think serial number or identification number). In this case, let us suppose an 'ID_Number' field.  For example, I may have the information of many people (think 'records') in my database and I want to know when Bob's birthday is.  If I make a request to my database to search the 'FirstName' field (the column labeled as 'FirstName') for the cell containing value 'Bob' and then to search that record (go across the row) and tell me the value of the cell in the 'DateOfBirth' field (column) for that record, I will get a list of the dates of birth for all people in my database with the first name 'Bob', which could be many (go to http://howmanyofme.com to see how many people have your same name).  But if I know that particular Bob's ID_Number (suppose 123456), then I can make a request to my database to search the 'ID_Number' field (the 'key field' in this example which is unique for every record) for the value '123456' and to tell me the value found in the 'DateOfBirth' field of that record, I will be given one and only one answer.
 
-![DatabaseGraphicFinal5x7](https://user-images.githubusercontent.com/99445778/154956332-10d9cf7c-23d0-4ed9-aa3e-d97825e5bbe5.png)
+![DatabaseGraphicFinal5x7](../../images/DatabaseGraphicFinal5x7.png)
 
 A database will usually have many tables stored in it. These different tables are related to each other.
 For example, you might have a table that holds customer data. That might include a name, an address, an account number, etc.
