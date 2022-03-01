@@ -80,7 +80,7 @@ When you are binge watching YouTube, you are using the front-end. Any user inter
 The front-end can be broken down into three separate parts.
 These are HTML, CSS, and JavaScript. Let's briefly look at each.
 
-### HTML
+### HTML ("Hypertext Markup Language")
 
 This is not really a programming language.
 It is more of a set of instructions to tell the browser how to display information. It does have some features that make
@@ -99,7 +99,7 @@ structure. It will put things where you tell it to put them.
 
 ```
 
-### CSS
+### CSS ("Cascading Style Sheets")
 
 This is code used to make the data on your page pretty. It handles fonts, and colors, and positions on the page of your data.
 HTML puts the blocks of data on the page. That's about it. CSS lets you more precisely craft how you want that data to look.
