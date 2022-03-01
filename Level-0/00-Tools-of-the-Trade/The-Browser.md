@@ -56,7 +56,7 @@ website.
   parts are when using a URL. Here they are:
 
     * `http` or `https`
-        - This means Hyper Text Transfer Protocol or Hyper Text Transfer Protocol . A Protocol is a set of rules to be
+        - This means Hyper Text Transfer Protocol or Hyper Text Transfer Protocol Secure. A Protocol is a set of rules to be
         used by the browser when requesting and receiving information.
 
     * `:`
