@@ -1,0 +1,7 @@
+# Ref: https://yamllint.readthedocs.io/en/stable/configuration.html
+
+extends: default
+
+ignore: |
+  node_modules/
+  vendor/
